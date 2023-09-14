@@ -6,9 +6,7 @@ import Program from "../components/program"
 
 function ProgramsPage({location}) {
 
-  let generalData = require('../../data/general.json')
   let programData = require('../../data/programs.json')
-  let impactCount = generalData.impact.adults + generalData.impact.children;
   let programs = programData.programs;
 
   return (
