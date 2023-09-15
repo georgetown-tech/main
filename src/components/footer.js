@@ -141,6 +141,8 @@ const Footer = ({ siteTitle }) => {
         <div
           class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4"
         >
+          <div></div>
+          <div></div>
           <div>
             <p class="font-medium text-gray-900">Programs</p>
 
@@ -182,69 +184,11 @@ const Footer = ({ siteTitle }) => {
               </ul>
             </nav>
           </div>
-
-          <div>
-            <p class="font-medium text-gray-900">Helpful Links</p>
-
-            <nav aria-label="Footer Navigation - Company" class="mt-6">
-              <ul class="space-y-4 text-sm">
-                <li>
-                  <Link to="/documents" class="text-gray-700 transition hover:opacity-75">
-                    Documents
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/press" class="text-gray-700 transition hover:opacity-75">
-                    Press and Media
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/faq" class="text-gray-700 transition hover:opacity-75">
-                    FAQs
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/support" class="text-gray-700 transition hover:opacity-75">
-                    Donate
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-          <div>
-            <p class="font-medium text-gray-900">Legal</p>
-
-            <nav aria-label="Footer Navigation - Legal" class="mt-6">
-              <ul class="space-y-4 text-sm">
-                <li>
-                  <Link to="/accessibility" class="text-gray-700 transition hover:opacity-75">
-                    Accessibility
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/terms" class="text-gray-700 transition hover:opacity-75">
-                    Terms and Conditions
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/privacy" class="text-gray-700 transition hover:opacity-75">
-                    Privacy Policy
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
         </div>
       </div>
 
       <p class="text-xs text-gray-500">
-        &copy; {new Date().getFullYear()}. The Fairfield Programming Association Inc. All rights reserved.
+        &copy; {new Date().getFullYear()}. Georgetown Disruptive Tech. All rights reserved.
       </p>
     </div>
   </footer>

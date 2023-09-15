@@ -14,13 +14,9 @@ function ProgramsPage({location}) {
   return (
     <Layout location={location} crumbLabel="Team">
       <section>
-        <div class="mx-auto max-w-6xl px-4 pb-16 flex flex-col mt-8">
-          <h2 className="font-bold text-4xl mb-4">Our Team</h2>
-          <p className="text-xl mb-4 max-w-2xl">
-            To be as transparent as possible, we allow anyone to access
-            information for all of our team members. If you would like to join
-            the team, please see the programs page for more information.
-          </p>
+        <div class="mx-auto max-w-screen-xl px-4 py-4 mt-24 pt-8">
+          <h2 className="font-bold text-4xl mb-4">Team</h2>
+          <p className="text-xl mb-16 max-w-2xl">Our team is made up of programmers, event coordinators, marketers, tech enthusiasts and more, all from the Georgetown community.</p>
           {/* <input value={search} onChange={(e) => { setSearch(e.target.value) }} type="search" class="bg-slate-100 p-4 w-full rounded shadow mb-16" placeholder="John Doe"></input> */}
           <div class="flex items-center lg:w-[35rem] w-[20rem]">
             <div class="relative w-full">

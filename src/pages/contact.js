@@ -5,8 +5,6 @@ import Seo from "../components/seo"
 
 function ContactPage({location}) {
 
-    const social = require('../../data/general.json').social
-    
     return (
         <Layout location={location} crumbLabel="Contact">
             <section>
@@ -15,15 +13,14 @@ function ContactPage({location}) {
                 >
                     <div class="mx-auto max-w-4xl text-center">
                         <h1 class="text-3xl font-extrabold sm:text-5xl">
-                            Contact the FPA
+                            Contact GDT
                         </h1>
                     </div>
                 </div>
             </section>
             <section>
                 <div className="max-w-6xl mx-auto pb-16 px-4 flex flex-col">
-                    <p className="text-lg">If you would like to contact the FPA, please reach out to contact@fairfieldprogramming.org. Alternatively, if you feel that contact through social media is more appropriate, you can message any of the following accounts:</p>
-                    <p className="text-lg font-bold mt-4">Instagram: <a href={`https://instagram.com/${social.instagram}`} className="hover:underline hover:text-sky-500 text-sky-400">{social.instagram}</a></p>
+                    <p className="text-lg">If you would like to contact GDT, please reach out to info@gtowntech.org.</p>
                 </div>
             </section>
         </Layout>

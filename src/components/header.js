@@ -18,7 +18,7 @@ const Header = ({  }) => (
           <Link class="text-gray-500 no-underline" to="/about">About</Link>
           <Link class="text-gray-500 no-underline" to="/projects">Projects</Link>
           <Link class="text-gray-500 no-underline" to="/team">Team</Link>
-          <Link class="text-gray-500 no-underline" to="/contact">Contact</Link>
+          {/* <Link class="text-gray-500 no-underline" to="/contact">Contact</Link> */}
           <Link class="text-gray-500 no-underline whitespace-nowrap" to="/join">Join Us</Link>
         </nav>
       </div>
