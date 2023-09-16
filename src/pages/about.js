@@ -27,6 +27,6 @@ function ContactPage({location}) {
     )
 }
 
-export const Head = () => <Seo title="Contacting the FPA" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Contact Us": "https://about.fairfieldprogramming.org/contact" }} />
+export const Head = () => <Seo title="About"  />
 
 export default ContactPage
