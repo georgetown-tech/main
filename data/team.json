@@ -2,12 +2,57 @@
     {
         "first": "William",
         "last": "McGonagle",
-        "email": "mcgonaglew@fairfieldprogramming.org",
+        "email": "wpm45@georgetown.edu",
         "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "William McGonagle is a Co-Founder, President, and Board Member of the FPA. Born on September 8th, 2004, he currently resides in Bridgeport, Connecticut near the headquarters of the FPA. After seeing how income disparity contributes to a shortage of education, he decided that there needed to be more opportunities for learning. He had discussed the problem with a friend, Neil Chaudhari, and within a few weeks, the two were working on building the FPA.",
-        "works": "As the current CEO of the FPA, William mostly watches over general management of all projects while also trying to expand to new areas. Many of the projects created by William have been described as 'risky' and 'bold' by none-other than Neil Chaudhari himself.",
+        "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023.",
+        "works": "William is currently the project leader on the Hoya project (Rotogravure).",
         "work": [
             0
         ]
+    },
+    {
+        "first": "Sydney",
+        "last": "Winter",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Lucas",
+        "last": "Raskin",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Max",
+        "last": "Ransibrahmanakul",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Kolby",
+        "last": "Palmer",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Rowan",
+        "last": "O'Sullivan",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
     }
 ]
