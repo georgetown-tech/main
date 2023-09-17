@@ -16,9 +16,9 @@ const Team = ({ pageContext }) => {
         <div class="mx-auto max-w-screen-xl px-4 py-16">
             <img src={photo} alt={`A photo of ${first} ${last}.`} class="rounded-full h-48 mb-4" />
             <h1 className="font-bold text-4xl mb-4">{first} {last}</h1>
-            <p className="text-xl mb-16 max-w-2xl">{biography}</p>
+            <p className="text-xl mb-16 max-w-2xl" dangerouslySetInnerHTML={{ __html: biography }} />
             <h2 className="font-bold text-3xl mb-4">{first}'s Work</h2>
-            <p className="text-xl mb-16 w-full">{works}</p>
+            <p className="text-xl mb-16 w-full" dangerouslySetInnerHTML={{ __html: works }} />
             <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
                 {
                     work.map(item => Program(programs[item]))

@@ -1,58 +1,44 @@
 [
     {
+        "chit": "William McGonagle",
+        "name": "William McGonagle",
         "first": "William",
         "last": "McGonagle",
         "email": "wpm45@georgetown.edu",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023.",
-        "works": "William is currently the project leader on the Hoya project (Rotogravure).",
+        "net_id": "wpm45",
+        "photo": "https://github.com/william-mcgonagle.png",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "birthdate": "9/8/2004",
+        "age": "19",
+        "title": "Developer",
+        "school": "MSB",
+        "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023 because of the computer science community surrounding the club. Originally from Bridgeport&comma; Connecticut&comma; William is passionate about sailing&comma; writing&comma; and spending time outside.",
+        "works": "William is currently the project leader on the Rotogravure project. As the project lead&comma; he manages the development team and collaborates with the newspapers to ensure a quality platform.",
         "work": [
             0
         ]
     },
     {
-        "first": "Sydney",
-        "last": "Winter",
-        "email": "mcgonaglew@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
-    },
-    {
-        "first": "Lucas",
-        "last": "Raskin",
-        "email": "mcgonaglew@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
-    },
-    {
-        "first": "Max",
-        "last": "Ransibrahmanakul",
-        "email": "mcgonaglew@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
-    },
-    {
-        "first": "Kolby",
-        "last": "Palmer",
-        "email": "mcgonaglew@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
-    },
-    {
-        "first": "Rowan",
-        "last": "O'Sullivan",
-        "email": "mcgonaglew@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
+        "chit": "Pk Karnik",
+        "name": "Pk Karnik",
+        "first": "Pk",
+        "last": "Karnik",
+        "email": "psk61@georgetown.edu",
+        "net_id": "psk61",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "photo": "https://github.com/PKCT.png",
+        "birthdate": "12/11/2004",
+        "age": "18",
+        "title": "Developer",
+        "school": "SFS",
+        "biography": "I am a first-year student who calls New Canaan&comma; Connecticut home. As someone with an international family with many people who work in tech&comma; I have always been interested in how these two issues intersect and thus&comma; as a student in the SFS&comma; am drawn to Georgetown Disruptive Tech. I have coded in high-school before (albeit in a more classroom environment) and look forward to working to build on my skills in innovative ways.",
+        "works": "As part of the Developer team&comma; I am helping to modernize and digitize the Hoya’s online presence. I am looking forward to making sure we have a secure system and also ensuring its scalability so we can work with college newspapers across the country and maybe even work with Canadian institutions. ",
+        "work": [
+            0
+        ]
     }
 ]

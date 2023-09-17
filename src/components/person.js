@@ -2,9 +2,27 @@ import * as React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
+function aimForCharacterCount(sentence, count) {
+
+  let i = 0;
+  let words = sentence.split(' ');
+  let output = '';
+
+  for (const word of words) {
+    
+    i += word.length;
+    if (count < i) return output + '...';
+
+    output += ' ' + word;
+
+  }
+
+  return output;
+
+}
+
 function Person({ first, last, photo, biography, location = "", crumbLabel }) {
   let slug = `${first}-${last}`.toLowerCase()
-  let description = biography.split(" ").slice(0, 40).join(" ")
 
   return (<>
     <Link className="block w-full h-full" to={`/team/${slug}`}>
@@ -13,7 +31,7 @@ function Person({ first, last, photo, biography, location = "", crumbLabel }) {
         <h3 className="text-lg font-bold">
           {first} {last}
         </h3>
-        <p className="text-md">{description || ""}</p>
+        <p className="text-md" dangerouslySetInnerHTML={{ __html: aimForCharacterCount(biography, 300) || ""}} />
       </div>
     </Link>
   </>

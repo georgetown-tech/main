@@ -102,7 +102,7 @@ function IndexPage({location}) {
       <section className="bg-white w-full px-16 py-8 flex align-center justify-center">
         <div class="text-center max-w-xl">
           <h2 className="text-xl uppercase text-black font-bold tracking-wider mb-4">From Our President</h2>
-          <p className="text-3xl text-black font-light">"This is a really good sounding quote. It makes me sound smart."</p>
+          <p className="text-3xl text-black font-light">"GDT&apos;s success boils down to our ambitious project team structure. Everyone has the resources to experiment and ultimately shape the focus of our organization."</p>
           <p className="text-xl font-black text-black mt-8 uppercase">Lucas Raskin<br /><b class="text-xl">Class of '25</b></p>
         </div>
       </section>

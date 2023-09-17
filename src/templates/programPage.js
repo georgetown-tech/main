@@ -15,7 +15,7 @@ const SectionBanner = ({ context }) => {
         <div class="mx-auto max-w-screen-xl px-4 py-16">
             {/* <span>Since {new Date(since).toLocaleString('default', { month: 'long' })}, {new Date(since).getFullYear()}</span> */}
             <h1 className="font-bold text-4xl mb-4">{title}</h1>
-            <p className="text-xl mb-16 max-w-2xl">{description}</p>
+            <p className="text-xl mb-16 max-w-2xl" dangerouslySetInnerHTML={{ __html: description }} />
         </div>
     </section>
 
