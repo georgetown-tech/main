@@ -6,7 +6,21 @@
             "title": "Rotogravure",
             "description": "Rotogravure is an all-in-one content management system for college newspapers and daily's. Originally developed for The Hoya, Georgetown's oldest newspaper, Rotogravure is now licensed out to colleges all around the country.",
             "joining": "With the project being under active development, we would love any help we can get. If you are interested in becoming part of the team, please contact 'wpm45@georgetown.edu'.",
-            "since": "2022-07-17"
+            "since": "2023-09-01"
+        },
+        {
+            "slug": "simons-heart",
+            "title": "Simon's Heart",
+            "description": "",
+            "joining": "",
+            "since": "2023-09-01"
+        },
+        {
+            "slug": "cherry-blossom-festival",
+            "title": "Cherry Blossom Festival",
+            "description": "",
+            "joining": "",
+            "since": "2023-09-01"
         }
     ]
 }

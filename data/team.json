@@ -11,14 +11,14 @@
         "year": "2027",
         "birthdate": "9/8/2004",
         "age": "19",
-        "title": "Developer",
+        "title": "Project Manager",
         "school": "MSB",
         "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023 because of the computer science community surrounding the club. Originally from Bridgeport&comma; Connecticut&comma; William is passionate about sailing&comma; writing&comma; and spending time outside.",
         "works": "William is currently the project leader on the Rotogravure project. As the project lead&comma; he manages the development team and collaborates with the newspapers to ensure a quality platform.",
-        "cheese\r": null,
         "work": [
             0
-        ]
+        ],
+        "cheese\r": "]\""
     },
     {
         "chit": "Pk Karnik",
@@ -36,10 +36,10 @@
         "school": "SFS",
         "biography": "I am a first-year student who calls New Canaan&comma; Connecticut home. As someone with an international family with many people who work in tech&comma; I have always been interested in how these two issues intersect and thus&comma; as a student in the SFS&comma; am drawn to Georgetown Disruptive Tech. I have coded in high-school before (albeit in a more classroom environment) and look forward to working to build on my skills in innovative ways.",
         "works": "As part of the Developer team&comma; I am helping to modernize and digitize the Hoya’s online presence. I am looking forward to making sure we have a secure system and also ensuring its scalability so we can work with college newspapers across the country and maybe even work with Canadian institutions. ",
-        "cheese\r": null,
         "work": [
             0
-        ]
+        ],
+        "cheese\r": "]\""
     },
     {
         "chit": "Eamon Maloney",
@@ -57,8 +57,8 @@
         "school": "College",
         "biography": "Eamon Maloney is a freshman at Georgetown University in the College of Arts and Sciences. He is from Falls Church&comma; Virginia(about 30 minutes outside of DC). He is a Linguistics major&comma; with a minor in Italian&comma; and is a member of the Foreign Language and Linguistics Hager Scholars colloquium. In Eamon's free time&comma; he enjoys playing and listening to music&comma; reading(fav book is Blood Meridian by Cormac McCarthy)&comma; working out&comma; and martial arts. Eamon also enjoys studying new languages&comma; and is currently studying Russian and Latin outside of class. Eamon joined GDT in 2023 because he is interested in web design and is very passionate about creating user friendly websites. ",
         "works": "Eamon is a part of the Developer Team. He is working on the Simon's Heart Development project&comma; using HTML&comma; CSS&comma; JavaScript&comma; and AWS. He is helping redesign the Simon's Heart webpage and donation page to create a more user-friendly experience. ",
-        "cheese\r": null,
-        "work": []
+        "work": [],
+        "cheese\r": null
     },
     {
         "chit": "eyz7@georgetown.edu",
@@ -76,8 +76,8 @@
         "school": "College",
         "biography": "Elise Zhu is a freshman in the College of Arts and Sciences. She is majoring in Computer Science with a minor in math. After taking several classes in web development and AI in high school&comma; she was drawn to continuing to build projects as a member of Georgetown Disruptive Tech. Originally from Fairfax&comma; Virginia&comma; Elise also enjoys dancing&comma; reading&comma; and drinking bubble tea.",
         "works": "As a part of the Developer team&comma; Elise is working on upgrading websites for Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest. Through this project&comma; she is utilizing  frontend development skills including HTML&comma; CSS&comma; and JS.",
-        "cheese\r": null,
-        "work": []
+        "work": [],
+        "cheese\r": null
     },
     {
         "chit": "Asadullah Azimi",
@@ -95,7 +95,47 @@
         "school": "College",
         "biography": "Asadullah is originally from Afghanistan and levied in India for 4 years. He is in the college of arts and science studying computer science. Apart from academics&comma; he likes to spend his free time visiting new places&comma; meeting friends and new people&comma; volleyball is his favorite sport. He joined GDT to gain practical experience by working on real world projects. ",
         "works": "Asadullah is in the developer team. He and his team works on building a website. He has learned HTML&comma; CSS&comma; JS&comma; and team work. His responsibilities are to participate in all the group meeting and complete the assigned tasks on time and help the team to complete the project on time. ",
-        "cheese\r": null,
-        "work": []
+        "work": [],
+        "cheese\r": null
+    },
+    {
+        "chit": "Felix Dosmond",
+        "name": "Felix Dosmond",
+        "first": "Felix",
+        "last": "Dosmond",
+        "email": "fgd12@georgetown.edu",
+        "net_id": "fgd12",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "birthdate": "4/21/2005",
+        "age": "18",
+        "title": "Assistant Head of Events and Outreach ",
+        "school": "College",
+        "biography": "Felix Dosmond is a freshman in the College of Arts and Sciences. His hometown is Greenwich&comma; Connecticut. He joined GDT because he enjoys connecting with others&comma; and wanted to learn more about a variety of different fields through his work in outreach. He was also drawn to GDT by the exciting atmosphere of the organization created by the leaders.",
+        "works": "As Assistant Head of Events and Outreach&comma; Felix coordinates upcoming GDT events. He researches as well as reaches out to potential speakers. He also organizes projects for the Events and Outreach team.",
+        "work": [],
+        "cheese\r": null
+    },
+    {
+        "chit": "Victoria Cheng",
+        "name": "Victoria Cheng",
+        "first": "Victoria",
+        "last": "Cheng",
+        "email": "vec20@georgetown.edu",
+        "net_id": "vec20",
+        "pronouns": "She/Her",
+        "gender": "F",
+        "year": "2026",
+        "birthdate": "8/15/2004",
+        "age": "19",
+        "title": "Project Manager",
+        "school": "College",
+        "biography": "Victoria Cheng is a sophomore in the College of Arts and Sciences majoring in Computer Science. She is passionate about connecting with fellow tech enthusiasts and leveraging technology to serve her community. Originally from Bethesda&comma; Maryland&comma; Victoria also enjoys drawing&comma; reading&comma; and doing crosswords.",
+        "works": "Victoria is a Project Manager on the Developer Team. Currently&comma; she leads a group of developers to rebuild the website of Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest in children. Victoria oversees development using HTML/CSS&comma; JS&comma; and AWS and facilitates collaboration with Simon's Heart.",
+        "work": [
+            1
+        ],
+        "cheese\r": "]\""
     }
 ]
