@@ -49,6 +49,7 @@ function ProgramsPage({location}) {
               .filter(member =>
                 `${member.first} ${member.last}`.toLocaleLowerCase().includes(search)
               )
+              .sort((a, b) => `${a.first} ${a.last}`.localeCompare(`${b.first} ${b.last}`))
               .map(item => Person(item))}
           </div>
         </div>

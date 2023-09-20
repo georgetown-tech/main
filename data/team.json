@@ -18,7 +18,8 @@
         "work": [
             0
         ],
-        "cheese\r": "]\""
+        "team": "dev_mcgonagle",
+        "cheese\r": null
     },
     {
         "chit": "Pk Karnik",
@@ -39,7 +40,8 @@
         "work": [
             0
         ],
-        "cheese\r": "]\""
+        "team": "dev_mcgonagle",
+        "cheese\r": null
     },
     {
         "chit": "Eamon Maloney",
@@ -57,7 +59,10 @@
         "school": "College",
         "biography": "Eamon Maloney is a freshman at Georgetown University in the College of Arts and Sciences. He is from Falls Church&comma; Virginia(about 30 minutes outside of DC). He is a Linguistics major&comma; with a minor in Italian&comma; and is a member of the Foreign Language and Linguistics Hager Scholars colloquium. In Eamon's free time&comma; he enjoys playing and listening to music&comma; reading(fav book is Blood Meridian by Cormac McCarthy)&comma; working out&comma; and martial arts. Eamon also enjoys studying new languages&comma; and is currently studying Russian and Latin outside of class. Eamon joined GDT in 2023 because he is interested in web design and is very passionate about creating user friendly websites. ",
         "works": "Eamon is a part of the Developer Team. He is working on the Simon's Heart Development project&comma; using HTML&comma; CSS&comma; JavaScript&comma; and AWS. He is helping redesign the Simon's Heart webpage and donation page to create a more user-friendly experience. ",
-        "work": [],
+        "work": [
+            1
+        ],
+        "team": "dev_victoria",
         "cheese\r": null
     },
     {
@@ -76,7 +81,10 @@
         "school": "College",
         "biography": "Elise Zhu is a freshman in the College of Arts and Sciences. She is majoring in Computer Science with a minor in math. After taking several classes in web development and AI in high school&comma; she was drawn to continuing to build projects as a member of Georgetown Disruptive Tech. Originally from Fairfax&comma; Virginia&comma; Elise also enjoys dancing&comma; reading&comma; and drinking bubble tea.",
         "works": "As a part of the Developer team&comma; Elise is working on upgrading websites for Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest. Through this project&comma; she is utilizing  frontend development skills including HTML&comma; CSS&comma; and JS.",
-        "work": [],
+        "work": [
+            1
+        ],
+        "team": "dev_victoria",
         "cheese\r": null
     },
     {
@@ -95,7 +103,10 @@
         "school": "College",
         "biography": "Asadullah is originally from Afghanistan and levied in India for 4 years. He is in the college of arts and science studying computer science. Apart from academics&comma; he likes to spend his free time visiting new places&comma; meeting friends and new people&comma; volleyball is his favorite sport. He joined GDT to gain practical experience by working on real world projects. ",
         "works": "Asadullah is in the developer team. He and his team works on building a website. He has learned HTML&comma; CSS&comma; JS&comma; and team work. His responsibilities are to participate in all the group meeting and complete the assigned tasks on time and help the team to complete the project on time. ",
-        "work": [],
+        "work": [
+            1
+        ],
+        "team": "dev_victoria",
         "cheese\r": null
     },
     {
@@ -115,6 +126,7 @@
         "biography": "Felix Dosmond is a freshman in the College of Arts and Sciences. His hometown is Greenwich&comma; Connecticut. He joined GDT because he enjoys connecting with others&comma; and wanted to learn more about a variety of different fields through his work in outreach. He was also drawn to GDT by the exciting atmosphere of the organization created by the leaders.",
         "works": "As Assistant Head of Events and Outreach&comma; Felix coordinates upcoming GDT events. He researches as well as reaches out to potential speakers. He also organizes projects for the Events and Outreach team.",
         "work": [],
+        "team": "events",
         "cheese\r": null
     },
     {
@@ -136,6 +148,115 @@
         "work": [
             1
         ],
-        "cheese\r": "]\""
+        "team": "dev_victoria",
+        "cheese\r": null
+    },
+    {
+        "chit": "Lucas Raskin",
+        "name": "Lucas Raskin",
+        "first": "Lucas",
+        "last": "Raskin",
+        "email": "lar159@georgetown.edu",
+        "net_id": "lar159",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2025",
+        "birthdate": "12/3/2003",
+        "age": "19",
+        "title": "President",
+        "school": "College",
+        "biography": "Lucas is a junior in the College of Arts and Sciences studying physics and economics. His upbringing in New York City shaped his interest in biotechnology and material sciences. He joined GDT to connect with other tech-interested folks on campus. ",
+        "works": "Lucas is the President of GDT. He sits on the executive board and coordinates with project managers to make sure our teams are properly resourced. He has moderated a number of speaker events for the club and handles our administrative matters. ",
+        "work": [],
+        "team": "admin",
+        "cheese\r": null
+    },
+    {
+        "chit": "Chris Bond",
+        "name": "Chris Bond",
+        "first": "Chris",
+        "last": "Bond",
+        "email": "cdb134@georgetown.edu",
+        "net_id": "cdb134",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "birthdate": "3/16/2005",
+        "age": "18",
+        "title": "Developer",
+        "school": "MSB",
+        "biography": "Chris Bond is a freshman in the MSB studying Operations and Analytics. He is from Athens&comma; Georgia and is deeply interested in data structures and computer science. He also loves cooking&comma; and has a killer omelet.  ",
+        "works": "Chris is on the team collaborating with The Hoya; his responsibilities include assisting with the coding of the new Hoya website portal and any projects that are introduced in the coming year.",
+        "work": [
+            0
+        ],
+        "team": "dev_mcgonagle",
+        "cheese\r": null
+    },
+    {
+        "chit": "Sam Berryessa",
+        "name": "Sam Berryessa",
+        "first": "Sam",
+        "last": "Berryessa",
+        "email": "smb450@georgetown.edu",
+        "net_id": "smb450",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "birthdate": "7/7/2005",
+        "age": "18",
+        "title": "Developer",
+        "school": "College",
+        "biography": "Sam Berryessa is a first-year in the College at Georgetown currently studying Chinese. From Seattle&comma; Sam graduated from Lakeside School in 2023. He likes to play piano&comma; tennis&comma; and volleyball. Sam joined GDT because he wants to use his previous coding experience to work on real world problems and build his portfolio.",
+        "works": "Sam is on the Developer team&comma; currently working on The Hoya project; constructing an online template site for newspapers. He will be learning how to code collaboratively through GitHub and other languages like Go. His responsibilities will mainly revolve around coding different parts of the portal.",
+        "work": [
+            0
+        ],
+        "team": "dev_mcgonagle",
+        "cheese\r": null
+    },
+    {
+        "chit": "Bradley Hu",
+        "name": "Bradley Hu",
+        "first": "Bradley",
+        "last": "Hu",
+        "email": "bh778@georgetown.edu",
+        "net_id": "bh778",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": "2027",
+        "birthdate": "5/17/2005",
+        "age": "18",
+        "title": "Programmer ",
+        "school": "College",
+        "biography": "Bradley Hu comes from Delaware&comma; and is currently in the College of Arts and Sciences&comma; majoring in Computer Science. He joined GDT to gain experience working on a project as a team&comma; and to learn new programming languages. In his spare time&comma; Bradley enjoys reading the webcomic xkcd and playing video games. ",
+        "works": "Bradley Hu is working on a new site for The Hoya&comma; one of the newspapers at Georgetown University. He is helping with both the front end and back end of the website.",
+        "work": [
+            0
+        ],
+        "team": "dev_mcgonagle",
+        "cheese\r": null
+    },
+    {
+        "chit": "Isabelle Darman",
+        "name": "Isabelle Darman",
+        "first": "Isabelle",
+        "last": "Darman",
+        "email": "imd49@georgetown.edu",
+        "net_id": "imd49",
+        "pronouns": "She/Her",
+        "gender": "F",
+        "year": "2027",
+        "birthdate": "11/2/2004",
+        "age": "18",
+        "title": "Developer",
+        "school": "College",
+        "biography": "Isabelle is from Monmouth County&comma; New Jersey. She is a first year in the College pursuing Computer Science and Theater and Performance Studies.  She attended an all-girls school with an emphasis on STEM&comma; where she first learned to code. She enjoys reading on the beach and hanging out with her cat Daisy in her free time.",
+        "works": "Isabelle is a part of the team creating a new website for The Hoya. She will be mainly working on the back end&comma; specifically the portal. She is very excited to learn more about website developement.",
+        "work": [
+            0
+        ],
+        "team": "dev_mcgonagle",
+        "cheese\r": null
     }
 ]
