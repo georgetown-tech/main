@@ -2,24 +2,24 @@
     "description": "Below is a list of projects that Georgetown Disruptive Tech has developed. If you would like to get involved with them, please reach out and let us know.",
     "programs": [
         {
-            "slug": "rotogravure",
             "title": "Rotogravure",
+            "slug": "rotogravure",
             "description": "Rotogravure is an all-in-one content management system for college newspapers and daily's. Originally developed for The Hoya, Georgetown's oldest newspaper, Rotogravure is now licensed out to colleges all around the country.",
             "joining": "With the project being under active development, we would love any help we can get. If you are interested in becoming part of the team, please contact 'wpm45@georgetown.edu'.",
             "since": "2023-09-01"
         },
         {
-            "slug": "simons-heart",
             "title": "Simon's Heart",
-            "description": "",
-            "joining": "",
+            "slug": "simons-heart",
+            "description": "Simon's Heart is a Pennsylvania-based nonprofit dedicated to preventing sudden cardiac arrest in young people. GDT is working to rebuild the Simon's Heart webpage to enhance their online presence and amplify their social impact. ",
+            "joining": "While this project is no longer accepting developers, we invite you to get involved with GDT if you are interested in building meaningful tech solutions like this one.",
             "since": "2023-09-01"
         },
         {
-            "slug": "cherry-blossom-festival",
-            "title": "Cherry Blossom Festival",
-            "description": "",
-            "joining": "",
+            "title": "WGTB - Georgetown Radio",
+            "slug": "georgetown-radio",
+            "description": "WGTB is Georgetown's student-run radio station, streamed exclusively over the web. GDT is proud to be bringing a modernized look to WGTB's website, along with innovative features which will increase accessibility and optimize user experience. Our machine learning team is seeking to introduce an AI radio host experience to WGTB, the first of its kind in college radio!",
+            "joining": "This project is currently underway and we are no longer accepting developer applications. Please check back soon, or apply to GDT at the opening of next semester to get involved with our innovative projects in the future.   ",
             "since": "2023-09-01"
         }
     ]

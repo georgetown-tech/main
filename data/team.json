@@ -8,18 +8,16 @@
         "net_id": "wpm45",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "9/8/2004",
-        "age": "19",
+        "age": 19,
         "title": "Project Manager",
         "school": "MSB",
         "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023 because of the computer science community surrounding the club. Originally from Bridgeport&comma; Connecticut&comma; William is passionate about sailing&comma; writing&comma; and spending time outside.",
         "works": "William is currently the project leader on the Rotogravure project. As the project lead&comma; he manages the development team and collaborates with the newspapers to ensure a quality platform.",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Pk Karnik",
@@ -30,18 +28,16 @@
         "net_id": "psk61",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "12/11/2004",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "SFS",
-        "biography": "I am a first-year student who calls New Canaan&comma; Connecticut home. As someone with an international family with many people who work in tech&comma; I have always been interested in how these two issues intersect and thus&comma; as a student in the SFS&comma; am drawn to Georgetown Disruptive Tech. I have coded in high-school before (albeit in a more classroom environment) and look forward to working to build on my skills in innovative ways.",
-        "works": "As part of the Developer team&comma; I am helping to modernize and digitize the Hoya’s online presence. I am looking forward to making sure we have a secure system and also ensuring its scalability so we can work with college newspapers across the country and maybe even work with Canadian institutions. ",
+        "biography": "PK is a first-year student who calls New Canaan&comma; Connecticut home. As someone with an international family with many people who work with innovative tech across many sectors&comma; he has always been interested in how these two issues intersect and thus&comma; as a student in the SFS&comma; he is drawn to Georgetown Disruptive Tech. He learned to code in high-school and looks forward to building on his skills in innovative ways.",
+        "works": "As part of the Developer team&comma; PK is helping to modernize and digitize the Hoya’s online presence. He is looking forward to making sure we have a secure system and also ensuring its scalability so the team can work with college newspapers across the country. ",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Eamon Maloney",
@@ -52,18 +48,16 @@
         "net_id": "epm76",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "8/22/2005",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "College",
         "biography": "Eamon Maloney is a freshman at Georgetown University in the College of Arts and Sciences. He is from Falls Church&comma; Virginia(about 30 minutes outside of DC). He is a Linguistics major&comma; with a minor in Italian&comma; and is a member of the Foreign Language and Linguistics Hager Scholars colloquium. In Eamon's free time&comma; he enjoys playing and listening to music&comma; reading(fav book is Blood Meridian by Cormac McCarthy)&comma; working out&comma; and martial arts. Eamon also enjoys studying new languages&comma; and is currently studying Russian and Latin outside of class. Eamon joined GDT in 2023 because he is interested in web design and is very passionate about creating user friendly websites. ",
         "works": "Eamon is a part of the Developer Team. He is working on the Simon's Heart Development project&comma; using HTML&comma; CSS&comma; JavaScript&comma; and AWS. He is helping redesign the Simon's Heart webpage and donation page to create a more user-friendly experience. ",
         "work": [
             1
-        ],
-        "team": "dev_victoria",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "eyz7@georgetown.edu",
@@ -74,18 +68,16 @@
         "net_id": "eyz7",
         "pronouns": "She/Her",
         "gender": "F",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "6/15/2005",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "College",
         "biography": "Elise Zhu is a freshman in the College of Arts and Sciences. She is majoring in Computer Science with a minor in math. After taking several classes in web development and AI in high school&comma; she was drawn to continuing to build projects as a member of Georgetown Disruptive Tech. Originally from Fairfax&comma; Virginia&comma; Elise also enjoys dancing&comma; reading&comma; and drinking bubble tea.",
         "works": "As a part of the Developer team&comma; Elise is working on upgrading websites for Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest. Through this project&comma; she is utilizing  frontend development skills including HTML&comma; CSS&comma; and JS.",
         "work": [
             1
-        ],
-        "team": "dev_victoria",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Asadullah Azimi",
@@ -96,18 +88,16 @@
         "net_id": "aa2734",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "7/15/2002",
-        "age": "21",
-        "title": "Member",
+        "age": 21,
+        "title": "Developer",
         "school": "College",
         "biography": "Asadullah is originally from Afghanistan and levied in India for 4 years. He is in the college of arts and science studying computer science. Apart from academics&comma; he likes to spend his free time visiting new places&comma; meeting friends and new people&comma; volleyball is his favorite sport. He joined GDT to gain practical experience by working on real world projects. ",
         "works": "Asadullah is in the developer team. He and his team works on building a website. He has learned HTML&comma; CSS&comma; JS&comma; and team work. His responsibilities are to participate in all the group meeting and complete the assigned tasks on time and help the team to complete the project on time. ",
         "work": [
             1
-        ],
-        "team": "dev_victoria",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Felix Dosmond",
@@ -118,16 +108,14 @@
         "net_id": "fgd12",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "4/21/2005",
-        "age": "18",
-        "title": "Assistant Head of Events and Outreach ",
+        "age": 18,
+        "title": "Events and Outreach Manager",
         "school": "College",
         "biography": "Felix Dosmond is a freshman in the College of Arts and Sciences. His hometown is Greenwich&comma; Connecticut. He joined GDT because he enjoys connecting with others&comma; and wanted to learn more about a variety of different fields through his work in outreach. He was also drawn to GDT by the exciting atmosphere of the organization created by the leaders.",
         "works": "As Assistant Head of Events and Outreach&comma; Felix coordinates upcoming GDT events. He researches as well as reaches out to potential speakers. He also organizes projects for the Events and Outreach team.",
-        "work": [],
-        "team": "events",
-        "cheese\r": null
+        "work": []
     },
     {
         "chit": "Victoria Cheng",
@@ -138,18 +126,16 @@
         "net_id": "vec20",
         "pronouns": "She/Her",
         "gender": "F",
-        "year": "2026",
+        "year": 2026,
         "birthdate": "8/15/2004",
-        "age": "19",
+        "age": 19,
         "title": "Project Manager",
         "school": "College",
         "biography": "Victoria Cheng is a sophomore in the College of Arts and Sciences majoring in Computer Science. She is passionate about connecting with fellow tech enthusiasts and leveraging technology to serve her community. Originally from Bethesda&comma; Maryland&comma; Victoria also enjoys drawing&comma; reading&comma; and doing crosswords.",
         "works": "Victoria is a Project Manager on the Developer Team. Currently&comma; she leads a group of developers to rebuild the website of Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest in children. Victoria oversees development using HTML/CSS&comma; JS&comma; and AWS and facilitates collaboration with Simon's Heart.",
         "work": [
             1
-        ],
-        "team": "dev_victoria",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Lucas Raskin",
@@ -160,16 +146,14 @@
         "net_id": "lar159",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2025",
+        "year": 2025,
         "birthdate": "12/3/2003",
-        "age": "19",
+        "age": 19,
         "title": "President",
         "school": "College",
         "biography": "Lucas is a junior in the College of Arts and Sciences studying physics and economics. His upbringing in New York City shaped his interest in biotechnology and material sciences. He joined GDT to connect with other tech-interested folks on campus. ",
         "works": "Lucas is the President of GDT. He sits on the executive board and coordinates with project managers to make sure our teams are properly resourced. He has moderated a number of speaker events for the club and handles our administrative matters. ",
-        "work": [],
-        "team": "admin",
-        "cheese\r": null
+        "work": []
     },
     {
         "chit": "Chris Bond",
@@ -180,18 +164,16 @@
         "net_id": "cdb134",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "3/16/2005",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "MSB",
         "biography": "Chris Bond is a freshman in the MSB studying Operations and Analytics. He is from Athens&comma; Georgia and is deeply interested in data structures and computer science. He also loves cooking&comma; and has a killer omelet.  ",
         "works": "Chris is on the team collaborating with The Hoya; his responsibilities include assisting with the coding of the new Hoya website portal and any projects that are introduced in the coming year.",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Sam Berryessa",
@@ -202,18 +184,16 @@
         "net_id": "smb450",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "7/7/2005",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "College",
         "biography": "Sam Berryessa is a first-year in the College at Georgetown currently studying Chinese. From Seattle&comma; Sam graduated from Lakeside School in 2023. He likes to play piano&comma; tennis&comma; and volleyball. Sam joined GDT because he wants to use his previous coding experience to work on real world problems and build his portfolio.",
         "works": "Sam is on the Developer team&comma; currently working on The Hoya project; constructing an online template site for newspapers. He will be learning how to code collaboratively through GitHub and other languages like Go. His responsibilities will mainly revolve around coding different parts of the portal.",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Bradley Hu",
@@ -224,18 +204,16 @@
         "net_id": "bh778",
         "pronouns": "He/Him",
         "gender": "M",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "5/17/2005",
-        "age": "18",
-        "title": "Programmer ",
+        "age": 18,
+        "title": "Developer",
         "school": "College",
         "biography": "Bradley Hu comes from Delaware&comma; and is currently in the College of Arts and Sciences&comma; majoring in Computer Science. He joined GDT to gain experience working on a project as a team&comma; and to learn new programming languages. In his spare time&comma; Bradley enjoys reading the webcomic xkcd and playing video games. ",
         "works": "Bradley Hu is working on a new site for The Hoya&comma; one of the newspapers at Georgetown University. He is helping with both the front end and back end of the website.",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
     },
     {
         "chit": "Isabelle Darman",
@@ -246,17 +224,105 @@
         "net_id": "imd49",
         "pronouns": "She/Her",
         "gender": "F",
-        "year": "2027",
+        "year": 2027,
         "birthdate": "11/2/2004",
-        "age": "18",
+        "age": 18,
         "title": "Developer",
         "school": "College",
         "biography": "Isabelle is from Monmouth County&comma; New Jersey. She is a first year in the College pursuing Computer Science and Theater and Performance Studies.  She attended an all-girls school with an emphasis on STEM&comma; where she first learned to code. She enjoys reading on the beach and hanging out with her cat Daisy in her free time.",
         "works": "Isabelle is a part of the team creating a new website for The Hoya. She will be mainly working on the back end&comma; specifically the portal. She is very excited to learn more about website developement.",
         "work": [
             0
-        ],
-        "team": "dev_mcgonagle",
-        "cheese\r": null
+        ]
+    },
+    {
+        "chit": "Caroline Blakeman",
+        "name": "Caroline Blakeman",
+        "first": "Caroline",
+        "last": "Blakeman",
+        "email": "chb65@georgetown.edu",
+        "net_id": "chb65",
+        "pronouns": "She/Her",
+        "gender": "F",
+        "year": 2027,
+        "birthdate": "10/29/2004",
+        "age": 18,
+        "title": "Researcher",
+        "school": "College",
+        "biography": "Caroline is a first-year student studying Computer Science and Government. She is thrilled to be a member of GDT's Research and Writing Team and is looking forward to exploring emerging trends in tech policy. Growing up in Central Wisconsin&comma; Caroline has always loved spending time outdoors&comma; going for runs&comma; and playing tennis. At Georgetown&comma; she enjoys contributing to the Sketch Comedy Club and exploring Washington&comma; D.C.",
+        "works": "Caroline contributes to GDT's Research and Writing Team and focuses on tech policy. She is excited to learn more about the intersection between technology and government and improve her research and writing capabilities. ",
+        "work": []
+    },
+    {
+        "chit": "Gitanjali Reddy",
+        "name": "Gitanjali Reddy",
+        "first": "Gitanjali",
+        "last": "Reddy",
+        "email": "gr585@georgetown.edu",
+        "net_id": "gr585",
+        "pronouns": "She/Her",
+        "gender": "F",
+        "year": 2025,
+        "birthdate": "6/2/2003",
+        "age": 20,
+        "title": "Researcher",
+        "school": "SFS",
+        "biography": "Gitanjali Reddy is a third-year undergraduate junior at Georgetown University’s Walsh School of Foreign Service. She is pursuing a B.S. in Science&comma; Technology&comma; and International Affairs with a concentration in Security Studies. She researches emerging technologies for military use&comma; defense policy&comma; and national security law.",
+        "works": "Gitanjali is a member of the research and writing team.",
+        "work": []
+    },
+    {
+        "chit": "Katie Merrill",
+        "name": "Katie Merrill",
+        "first": "Katie",
+        "last": "Merrill",
+        "email": "kem376@georgetown.edu",
+        "net_id": "kem376",
+        "pronouns": "She/Her",
+        "gender": "F",
+        "year": 2027,
+        "birthdate": "1/14/2005",
+        "age": 18,
+        "title": "Developer",
+        "school": "College",
+        "biography": "Katie is a computer science major in the College&comma; and she is from Fairfax County&comma; Virginia. She joined Disruptive Tech because she is interested in how computer science can be used to make a positive impact in the world&comma; both in big and small ways. Other than computer science&comma; she also likes spending time with friends&comma; drinking tea&comma; and swimming.",
+        "works": "Katie is on a GDT developer team that is currently working on redesigning the Georgetown Radio Club's website. As this is her first year participating in Disruptive Tech (and being in college)&comma; Katie doesn't know exactly what to expect&comma; but she's excited to be a part of it!",
+        "work": []
+    },
+    {
+        "chit": "Kolby Palmer",
+        "name": "Kolby Palmer",
+        "first": "Kolby",
+        "last": "Palmer",
+        "email": "kjp84@georgetown.edu",
+        "net_id": "kjp84",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": 2025,
+        "birthdate": "11/6/2002",
+        "age": 20,
+        "title": "CTO",
+        "school": "College",
+        "biography": "A proud Philadelphia native&comma; Kolby first became interested in technology through his physics coursework at Georgetown. Currently a rising junior in the College of Arts and Sciences&comma; Kolby is passionate about developing technologies to improve healthcare systems and sustainability. At GDT&comma; Kolby aspires to redefine how Georgetown students interact with technology while simultaneously bringing positive impact to the local community through student-led projects. ",
+        "works": "As CTO&comma; Kolby led GDT's transformation toward student-led development teams focused on programming and machine learning projects. By facilitating partnerships with local non-profits and on-campus organizations at Georgetown&comma; Kolby has helped to center GDT's mission around creating tangible impact for both our partners and within our communities. ",
+        "work": []
+    },
+    {
+        "chit": "Anthony Duan",
+        "name": "Anthony Duan",
+        "first": "Anthony",
+        "last": "Duan",
+        "email": "abd81@georgetown.edu",
+        "net_id": "abd81",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": 2025,
+        "birthdate": "3/28/2003",
+        "age": 20,
+        "title": "AI Programmer",
+        "school": "College",
+        "biography": "Anthony is a third-year in the College of Arts and Sciences who initially majored in Economics before taking COSC 051 and adding on Computer Science with a minor in Mathematics. He is from Ellicott City&comma; Maryland&comma; and in his free time he likes listening to music&comma; walking around the neighborhood&comma; and hanging out with the Quizbowl and MUN teams! He is here to learn about machine learning :D",
+        "works": "Anthony is a member of our Machine Learning team&comma; working with the rest of the team on a sentiment analysis model for the National Cherry Blossom Festival. Though he is new to GDT&comma; he is excited to learn about this emerging field as one of the team's developers.",
+        "work": []
     }
 ]
