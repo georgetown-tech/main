@@ -3,6 +3,7 @@ const path = require('path')
 const fetch = require("node-fetch");
 
 const generateEventsFile = require('./src/utility/events.js')
+const generateBirthdaysFile = require('./src/utility/birthdays.js')
 
 let headers = []
 
@@ -107,6 +108,9 @@ exports.createPages = async ({ actions }) => {
   }, null, 4))
 
   fs.writeFileSync('./static/api/events', generateEventsFile(events))
+  fs.writeFileSync('./static/api/events.ics', generateEventsFile(events))
+  fs.writeFileSync('./static/api/birthdays', generateBirthdaysFile(events))
+  fs.writeFileSync('./static/api/birthdays.ics', generateBirthdaysFile(events))
 
   // const programs = require('./data/programs.json').programs
   const partners = require('./data/partners.json').partners

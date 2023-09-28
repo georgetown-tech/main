@@ -5,6 +5,8 @@ import Seo from "../components/seo"
 import Program from "../components/program"
 import EventMonth from "../components/eventMonth"
 
+import generateBirthdaysFile from "../utility/birthdays"
+
 const monthDiff = (d1, d2) => {
   let months;
   months = (d2.getFullYear() - d1.getFullYear()) * 12;
@@ -14,6 +16,9 @@ const monthDiff = (d1, d2) => {
 }
 
 function ProgramsPage({location}) {
+
+  let team = require('../../data/team.json')
+  console.log(generateBirthdaysFile(team))
 
   let events = require('../../data/events.json')
   let maxDate = new Date();
@@ -68,11 +73,14 @@ function ProgramsPage({location}) {
 
   }
 
-  console.log(dateOutput)
-
   return (
     <Layout location={location} crumbLabel="programs" >
       <h1 className="hidden">Events</h1>
+      <div>
+        <a target="_blank" rel="noopener" href="/api/events.ics" class="">
+          Add to Calendar
+        </a>
+      </div>
       {
         dateOutput.map(i => EventMonth(i))
       }
