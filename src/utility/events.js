@@ -1,11 +1,5 @@
-export default function handler(req, res) {
-    
-    let events = require('../../data/events.json')
+module.exports = function generateFile(events) {
 
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Content-Type', 'text/calendar');
-    // res.setHeader('Content-Type', 'text/plain');
-  
     let output = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -55,5 +49,6 @@ export default function handler(req, res) {
         "END:VCALENDAR"
     )
 
-    res.status(200).send(output.join('\r\n'))
+    return output.join('\r\n')
+
 }

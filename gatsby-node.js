@@ -2,6 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const fetch = require("node-fetch");
 
+const generateEventsFile = require('./src/utility/events.js')
+
 let headers = []
 
 function isNumeric(str) {
@@ -103,6 +105,8 @@ exports.createPages = async ({ actions }) => {
     description: "Below is a list of projects that Georgetown Disruptive Tech has developed. If you would like to get involved with them, please reach out and let us know.",
     programs: programs
   }, null, 4))
+
+  fs.writeFileSync('./static/api/events', generateEventsFile(events))
 
   // const programs = require('./data/programs.json').programs
   const partners = require('./data/partners.json').partners
