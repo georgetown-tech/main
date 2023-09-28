@@ -77,6 +77,7 @@ const Footer = ({ siteTitle }) => {
             <li>
               <a
                 href="https://twitter.com/tech_georgetown"
+                rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75"
               >
@@ -98,6 +99,7 @@ const Footer = ({ siteTitle }) => {
             <li>
               <a
                 href="https://github.com/georgetown-tech"
+                rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75"
               >
@@ -120,6 +122,7 @@ const Footer = ({ siteTitle }) => {
             <li>
               <a
                 href="https://www.instagram.com/georgetowndisruptivetech"
+                rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75 p-auto"
               >
