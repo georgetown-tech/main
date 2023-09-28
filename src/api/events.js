@@ -3,8 +3,8 @@ export default function handler(req, res) {
     let events = require('../../data/events.json')
 
     res.setHeader('Access-Control-Allow-Origin', '*');
-    // res.setHeader('Content-Type', 'text/calendar');
-    res.setHeader('Content-Type', 'text/plain');
+    res.setHeader('Content-Type', 'text/calendar');
+    // res.setHeader('Content-Type', 'text/plain');
   
     let output = [
         "BEGIN:VCALENDAR",
