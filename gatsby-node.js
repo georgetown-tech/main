@@ -81,13 +81,15 @@ exports.createPages = async ({ actions }) => {
     const memberProjectsDataRaw = await memberProjectsData.text()
     const memberProjects = readCSV(memberProjectsDataRaw)
 
+    const eventsData = await fetch('https://docs.google.com/spreadsheets/d/1qGAkX9-iH8BniQez88Sa02k-UzIBjszl8AnnzWTzX88/gviz/tq?tqx=out:csv&sheet=Events')
+    const eventsDataRaw = await eventsData.text()
+    const events = readCSV(eventsDataRaw)
+    
     team.forEach((i, n) => {
 
       team[n].work = []
 
     })
-
-    console.log(memberProjects)
 
     memberProjects.forEach(i => {
 
@@ -95,11 +97,12 @@ exports.createPages = async ({ actions }) => {
 
     })
 
-    fs.writeFileSync('./data/team.json', JSON.stringify(team, null, 4))
-    fs.writeFileSync('./data/programs.json', JSON.stringify({
-      description: "Below is a list of projects that Georgetown Disruptive Tech has developed. If you would like to get involved with them, please reach out and let us know.",
-      programs: programs
-    }, null, 4))
+  fs.writeFileSync('./data/team.json', JSON.stringify(team, null, 4))
+  fs.writeFileSync('./data/events.json', JSON.stringify(events, null, 4))
+  fs.writeFileSync('./data/programs.json', JSON.stringify({
+    description: "Below is a list of projects that Georgetown Disruptive Tech has developed. If you would like to get involved with them, please reach out and let us know.",
+    programs: programs
+  }, null, 4))
 
   // const programs = require('./data/programs.json').programs
   const partners = require('./data/partners.json').partners

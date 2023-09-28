@@ -1,0 +1,20 @@
+[
+    {
+        "title": "General Body Meeting #1",
+        "description": "",
+        "location": "Leavy Program Room",
+        "startTime": "9/11/2023 5:00:00 PM",
+        "endTime": "9/11/2023 6:00:00 PM",
+        "type": "GBM",
+        "eventLength": "1:00"
+    },
+    {
+        "title": "General Body Meeting #2",
+        "description": "",
+        "location": "Leavy Program Room",
+        "startTime": "9/25/2023 5:00:00 PM",
+        "endTime": "9/25/2023 6:00:00 PM",
+        "type": "GBM",
+        "eventLength": "1:00"
+    }
+]
