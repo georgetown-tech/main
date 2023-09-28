@@ -57,9 +57,6 @@ function ProgramsPage({location}) {
     _maxDate.setFullYear(startDate.getFullYear() + Math.floor((startDate.getMonth() + i) / 12))
     _maxDate.setMonth((startDate.getMonth() + i) % 12)
 
-    console.log("Min: " + _minDate)
-    console.log("Max: " + _maxDate)
-
     dateOutput.push({
       title: `${months[(startDate.getMonth() + i) % 12]} ${startDate.getFullYear() + Math.floor((startDate.getMonth() + i) / 12)}`,
       events: events.filter(i => {

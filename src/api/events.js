@@ -55,5 +55,5 @@ export default function handler(req, res) {
         "END:VCALENDAR"
     )
 
-    res.status(200).send(output.join('\n'))
+    res.status(200).send(output.join('\r\n'))
 }
