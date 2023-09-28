@@ -76,14 +76,14 @@ function IndexPage({location}) {
           </div>
         </div>
       </section>
-      <section className="bg-active w-full px-16 py-8">
+      {/* <section className="bg-active w-full px-16 py-8">
         <div class="text-center">
           <h2 className="text-xl uppercase text-white font-bold tracking-wider mb-4">Our Current Fund</h2>
           <p className="text-8xl font-bold text-white">{USDollar.format(currentFund)}</p>
           <p className="text-white">have been generated over our lifetime.</p>
           <Link className="block underline text-white mt-4" to="/about#fund">More About Our Fund</Link>
         </div>
-      </section>
+      </section> */}
       <section className="w-full px-16 py-8 my-16">
         <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-2">
           <div className="w-1/3 hidden text-slate-200 md:block">
