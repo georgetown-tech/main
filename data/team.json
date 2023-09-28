@@ -450,5 +450,23 @@
         "biography": "Lucy is in the College majoring in Computer Science with minors in Mathematics and Studio Art. She comes from Frederick&comma; Maryland and she is interested in digital art&comma; swimming&comma; and anime. Lucy joined GDT to gain more hands on experience with technology that isn’t taught in class and to channel her creative abilities towards fresh opportunities.",
         "works": "Lucy is now on the Simon’s Heart developer team working towards redesigning their website. Using HTML&comma; CSS&comma; JavaScript&comma; and AWS&comma; she is hoping to provide users and clients with a smoother experience.",
         "work": []
+    },
+    {
+        "chit": "Kenneth Kim",
+        "name": "Kenneth Kim",
+        "first": "Kenneth",
+        "last": "Kim",
+        "email": "sk2350@georgetown.edu",
+        "net_id": "sk2350",
+        "pronouns": "He/Him",
+        "gender": "M",
+        "year": 2027,
+        "birthdate": "1/11/2003",
+        "age": 20,
+        "title": "Researcher",
+        "school": "College",
+        "biography": "Kenneth Kim is from Suwon-si&comma; South Korea. After spending four years in Virginia&comma; he chose to come to Georgetown. In Georgetown University&comma; he majors in mathematics & Economics in the College of Arts & Science. His hobby is reading articles about technology and ethics&comma; and most of his interest these days focuses on philosophical values in modern technology. He joined GDT to share his ideas and interest to Georgetown and the world!",
+        "works": "Kenneth is in GDT's Research & Writing team. Specifically&comma; he is a member of A.I. research section&comma; studying the relation between AI technology and our lives. The writing also aims readers without tech knowledge.",
+        "work": []
     }
 ]

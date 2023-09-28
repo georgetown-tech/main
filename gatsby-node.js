@@ -154,12 +154,12 @@ exports.createPages = async ({ actions }) => {
 
   })
   
-  partners.forEach((partner, index) => {
+  events.forEach((event, index) => {
 
     createPage({
-      path: `/partnerships/${partner.slug}`,
-      component: require.resolve("./src/templates/partner.js"),
-      context: { ...partner, index },
+      path: `/events/${event.slug}`,
+      component: require.resolve("./src/templates/event.js"),
+      context: { ...event, index },
       defer: false,
     })
 
