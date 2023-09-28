@@ -42,7 +42,7 @@ function ContactPage({location}) {
                 </div>
                 </div>
             </section>
-            <section className="w-full px-16 py-8 my-16">
+            <section>
                 <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-8">
                     <div className="w-1/3 hidden text-slate-200 md:block">
                         {
