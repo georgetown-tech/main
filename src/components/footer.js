@@ -144,7 +144,7 @@ const Footer = ({ siteTitle }) => {
               <ul class="space-y-4 text-sm">
                 {
                   programs.filter((n, i) => i < 4).map(program => <li>
-                    <Link to={`/programs/${program.slug}`} class="text-gray-700 transition hover:opacity-75">
+                    <Link to={`/projects/${program.slug}`} class="text-gray-700 transition hover:opacity-75">
                       {program.title}
                     </Link>
                   </li>)
