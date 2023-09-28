@@ -31,11 +31,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Fairfield Programming Association`,
-        short_name: `fpa`,
+        name: `Georgetown Disruptive Tech`,
+        short_name: `gdt`,
         start_url: `/`,
-        background_color: `#0F006C`,
-        theme_color: `#0F006C`,
+        background_color: `#FC3858`,
+        theme_color: `#FC3858`,
         display: `minimal-ui`,
         icon: `src/res/favicon.png`, // This path is relative to the root of the site.
       },

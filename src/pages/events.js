@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Program from "../components/program"
+import EventMonth from "../components/eventMonth"
 
 const monthDiff = (d1, d2) => {
   let months;
@@ -27,21 +28,54 @@ function ProgramsPage({location}) {
 
   })
 
-  const monthCount = monthDiff(new Date(), maxDate)
-  const months = [];
+  const startDate = new Date("September 2023")
+  const monthCount = monthDiff(startDate, maxDate) + 1
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+
+  const dateOutput = []
+
+  for (let i = 0; i < monthCount; i++) {
+    
+    const _minDate = new Date();
+    _minDate.setFullYear(Math.floor((startDate.getMonth() + i) / 12))
+    _minDate.setMonth((startDate.getMonth() + i) % 12)
+
+    const _maxDate = new Date();
+    _minDate.setFullYear(Math.floor((startDate.getMonth() + i + 1) / 12))
+    _minDate.setMonth((startDate.getMonth() + i + 1) % 12)
+
+    dateOutput.push({
+      title: `${months[(startDate.getMonth() + i) % 12]} ${startDate.getFullYear() + Math.floor((startDate.getMonth() + i) / 12)}`,
+      events: events.filter(i => {
+
+        return (new Date(i.startTime) >= _minDate && new Date(i.endTime) < _maxDate);
+
+      })
+    })
+
+  }
+
+  console.log(dateOutput)
 
   return (
     <Layout location={location} crumbLabel="programs" >
-      <section>
-        <div class="mx-auto max-w-screen-xl px-4 py-8 mt-24">
-          <h2 className="font-bold text-4xl mb-4">{monthCount}</h2>
-          <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
-            {
-              // programs.map(item => Program(item))
-            }
-          </div>
-        </div>
-      </section>
+      <h1 className="hidden">Events</h1>
+      {
+        dateOutput.map(i => EventMonth(i))
+      }
     </Layout>
   )
 }

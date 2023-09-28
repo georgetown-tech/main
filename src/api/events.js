@@ -10,6 +10,18 @@ export default function handler(req, res) {
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//hacksw/handcal//NONSGML v1.0//EN",
+        "URL:http://gtowntech.org/api/events",
+        "NAME:Georgetown Disruptive Tech",
+        "X-WR-CALNAME:Georgetown Disruptive Tech",
+        "DESCRIPTION:The official calendar of GDT and its hosted events.",
+        "X-WR-CALDESC:The official calendar of GDT and its hosted events.",
+        "TIMEZONE-ID:America/New_York",
+        "X-WR-TIMEZONE:America/New_York",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
+        "X-PUBLISHED-TTL:PT12H",
+        "COLOR:252:56:88",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH"
     ];
 
     events.forEach((i, n) => {

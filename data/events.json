@@ -3,8 +3,8 @@
         "title": "General Body Meeting #1",
         "description": "",
         "location": "Leavy Program Room",
-        "startTime": "9/11/2023 5:00:00 PM",
-        "endTime": "9/11/2023 6:00:00 PM",
+        "startTime": "9/12/2023 5:00:00 PM",
+        "endTime": "9/12/2023 6:00:00 PM",
         "type": "GBM",
         "eventLength": "1:00"
     },
@@ -12,9 +12,18 @@
         "title": "General Body Meeting #2",
         "description": "",
         "location": "Leavy Program Room",
-        "startTime": "9/25/2023 5:00:00 PM",
-        "endTime": "9/25/2023 6:00:00 PM",
+        "startTime": "9/26/2023 5:00:00 PM",
+        "endTime": "9/26/2023 6:00:00 PM",
         "type": "GBM",
         "eventLength": "1:00"
+    },
+    {
+        "title": "Dr. Gayan Benedict Future Forecasting",
+        "description": "On October 10th 5pm in the Arrupe Multipurpose Room, GDT will host Salesforce CTO (Australia and New Zealand) and former Reserve Bank of Australia CIO Dr. Gayan Benedict, who will be presenting a talk on future forecasting. This is a great opportunity for anybody interested in fintech or wanting to understand how major institutions account for the uncertainty of disruptive technologies.",
+        "location": "Arrupe Multipurpose Room",
+        "startTime": "10/10/2023 5:00:00",
+        "endTime": "10/10/2023 7:00:00",
+        "type": "Speaker",
+        "eventLength": "2:00"
     }
 ]
