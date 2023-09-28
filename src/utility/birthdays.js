@@ -40,6 +40,7 @@ module.exports = function generateFile(members) {
             `DTEND;VALUE=DATE:${dateFormat}`,
             `SUMMARY:${i.first} ${i.last}'s Birthday`,
             `DTSTAMP:${alternateFormat}`,
+            `RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z`,
             "TRANSP:TRANSPARENT",
             `ATTACH:https://gtowntech.org/team/${slug}`,
             "END:VEVENT",
