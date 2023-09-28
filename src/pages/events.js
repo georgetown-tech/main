@@ -50,18 +50,21 @@ function ProgramsPage({location}) {
   for (let i = 0; i < monthCount; i++) {
     
     const _minDate = new Date();
-    _minDate.setFullYear(Math.floor((startDate.getMonth() + i) / 12))
-    _minDate.setMonth((startDate.getMonth() + i) % 12)
+    _minDate.setFullYear(startDate.getFullYear() + Math.floor((startDate.getMonth() + i - 1) / 12))
+    _minDate.setMonth((startDate.getMonth() + i - 1) % 12)
 
     const _maxDate = new Date();
-    _minDate.setFullYear(Math.floor((startDate.getMonth() + i + 1) / 12))
-    _minDate.setMonth((startDate.getMonth() + i + 1) % 12)
+    _maxDate.setFullYear(startDate.getFullYear() + Math.floor((startDate.getMonth() + i) / 12))
+    _maxDate.setMonth((startDate.getMonth() + i) % 12)
+
+    console.log("Min: " + _minDate)
+    console.log("Max: " + _maxDate)
 
     dateOutput.push({
       title: `${months[(startDate.getMonth() + i) % 12]} ${startDate.getFullYear() + Math.floor((startDate.getMonth() + i) / 12)}`,
       events: events.filter(i => {
 
-        return (new Date(i.startTime) >= _minDate && new Date(i.endTime) < _maxDate);
+        return new Date(i.startTime) >= _minDate && new Date(i.startTime) < _maxDate;
 
       })
     })
