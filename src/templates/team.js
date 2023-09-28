@@ -18,7 +18,7 @@ const Team = ({ pageContext }) => {
     return <Layout>
         <section>
             <div class="mx-auto max-w-screen-xl px-4 py-16">
-                <img src={photo} alt={`A photo of ${first} ${last}.`} class="rounded-full h-48 mb-4" />
+                <img src={photo} alt={`A photo of ${first} ${last}.`} class="rounded-full h-48 mb-4 aspect-square object-cover" />
                 <h1 className="font-bold text-4xl mb-4">{first} {last}</h1>
                 <p className="text-xl mb-16 max-w-2xl" dangerouslySetInnerHTML={{ __html: biography }} />
                 <h2 className="font-bold text-3xl mb-4">{first}'s Work</h2>

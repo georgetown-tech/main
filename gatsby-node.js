@@ -122,7 +122,7 @@ exports.createPages = async ({ actions }) => {
   programs.forEach((program, index) => {
 
     createPage({
-      path: `/programs/${program.slug}`,
+      path: `/projects/${program.slug}`,
       component: require.resolve("./src/templates/program.js"),
       context: { ...program, index },
       defer: false,
