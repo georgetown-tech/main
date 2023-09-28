@@ -109,8 +109,8 @@ exports.createPages = async ({ actions }) => {
 
   fs.writeFileSync('./static/api/events', generateEventsFile(events))
   fs.writeFileSync('./static/api/events.ics', generateEventsFile(events))
-  fs.writeFileSync('./static/api/birthdays', generateBirthdaysFile(events))
-  fs.writeFileSync('./static/api/birthdays.ics', generateBirthdaysFile(events))
+  fs.writeFileSync('./static/api/birthdays', generateBirthdaysFile(team))
+  fs.writeFileSync('./static/api/birthdays.ics', generateBirthdaysFile(team))
 
   // const programs = require('./data/programs.json').programs
   const partners = require('./data/partners.json').partners

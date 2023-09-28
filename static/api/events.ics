@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+URL:http://gtowntech.org/api/events
+NAME:Georgetown Disruptive Tech
+X-WR-CALNAME:Georgetown Disruptive Tech
+DESCRIPTION:The official calendar of GDT and its hosted events.
+X-WR-CALDESC:The official calendar of GDT and its hosted events.
+TIMEZONE-ID:America/New_York
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+COLOR:252:56:88
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0-general-body-meeting-1@gtowntech.org
+DTSTAMP:20230912T210000
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART:20230912T210000
+DTEND:20230912T220000
+SUMMARY:General Body Meeting #1
+LOCATION:Leavy Program Room
+TRANSP:OPAQUE
+ATTACH:https://gtowntech.org/events/0-general-body-meeting-1
+END:VEVENT
+BEGIN:VEVENT
+UID:1-general-body-meeting-2@gtowntech.org
+DTSTAMP:20230926T210000
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART:20230926T210000
+DTEND:20230926T220000
+SUMMARY:General Body Meeting #2
+LOCATION:Leavy Program Room
+TRANSP:OPAQUE
+ATTACH:https://gtowntech.org/events/1-general-body-meeting-2
+END:VEVENT
+BEGIN:VEVENT
+UID:2-dr-gayan-benedict-future-forecasting@gtowntech.org
+DTSTAMP:20231010T090000
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART:20231010T090000
+DTEND:20231010T110000
+SUMMARY:Dr. Gayan Benedict Future Forecasting
+LOCATION:Arrupe Multipurpose Room
+TRANSP:OPAQUE
+ATTACH:https://gtowntech.org/events/2-dr-gayan-benedict-future-forecasting
+END:VEVENT
+END:VCALENDAR

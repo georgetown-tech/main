@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+URL:http://gtowntech.org/api/events
+NAME:GDT Birthdays
+X-WR-CALNAME:GDT Birthdays
+DESCRIPTION:The official calendar of GDT birthdays.
+X-WR-CALDESC:The official calendar of GDT birthdays.
+TIMEZONE-ID:America/New_York
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+COLOR:252:56:88
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:william-mcgonagle@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040908
+DTEND;VALUE=DATE:20040908
+SUMMARY:William McGonagle's Birthday
+DTSTAMP:20040908T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/william-mcgonagle
+END:VEVENT
+BEGIN:VEVENT
+UID:pk-karnik@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20041211
+DTEND;VALUE=DATE:20041211
+SUMMARY:Pk Karnik's Birthday
+DTSTAMP:20041211T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/pk-karnik
+END:VEVENT
+BEGIN:VEVENT
+UID:eamon-maloney@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050822
+DTEND;VALUE=DATE:20050822
+SUMMARY:Eamon Maloney's Birthday
+DTSTAMP:20050822T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/eamon-maloney
+END:VEVENT
+BEGIN:VEVENT
+UID:elise-zhu@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050615
+DTEND;VALUE=DATE:20050615
+SUMMARY:Elise Zhu's Birthday
+DTSTAMP:20050615T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/elise-zhu
+END:VEVENT
+BEGIN:VEVENT
+UID:asadullah-azimi@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20020715
+DTEND;VALUE=DATE:20020715
+SUMMARY:Asadullah Azimi's Birthday
+DTSTAMP:20020715T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/asadullah-azimi
+END:VEVENT
+BEGIN:VEVENT
+UID:felix-dosmond@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050421
+DTEND;VALUE=DATE:20050421
+SUMMARY:Felix Dosmond's Birthday
+DTSTAMP:20050421T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/felix-dosmond
+END:VEVENT
+BEGIN:VEVENT
+UID:victoria-cheng@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040815
+DTEND;VALUE=DATE:20040815
+SUMMARY:Victoria Cheng's Birthday
+DTSTAMP:20040815T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/victoria-cheng
+END:VEVENT
+BEGIN:VEVENT
+UID:lucas-raskin@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20031203
+DTEND;VALUE=DATE:20031203
+SUMMARY:Lucas Raskin's Birthday
+DTSTAMP:20031203T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/lucas-raskin
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-bond@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050316
+DTEND;VALUE=DATE:20050316
+SUMMARY:Chris Bond's Birthday
+DTSTAMP:20050316T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/chris-bond
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-berryessa@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050707
+DTEND;VALUE=DATE:20050707
+SUMMARY:Sam Berryessa's Birthday
+DTSTAMP:20050707T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/sam-berryessa
+END:VEVENT
+BEGIN:VEVENT
+UID:bradley-hu@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050517
+DTEND;VALUE=DATE:20050517
+SUMMARY:Bradley Hu's Birthday
+DTSTAMP:20050517T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/bradley-hu
+END:VEVENT
+BEGIN:VEVENT
+UID:isabelle-darman@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20041102
+DTEND;VALUE=DATE:20041102
+SUMMARY:Isabelle Darman's Birthday
+DTSTAMP:20041102T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/isabelle-darman
+END:VEVENT
+BEGIN:VEVENT
+UID:caroline-blakeman@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20041029
+DTEND;VALUE=DATE:20041029
+SUMMARY:Caroline Blakeman's Birthday
+DTSTAMP:20041029T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/caroline-blakeman
+END:VEVENT
+BEGIN:VEVENT
+UID:gitanjali-reddy@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20030602
+DTEND;VALUE=DATE:20030602
+SUMMARY:Gitanjali Reddy's Birthday
+DTSTAMP:20030602T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/gitanjali-reddy
+END:VEVENT
+BEGIN:VEVENT
+UID:katie-merrill@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20050114
+DTEND;VALUE=DATE:20050114
+SUMMARY:Katie Merrill's Birthday
+DTSTAMP:20050114T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/katie-merrill
+END:VEVENT
+BEGIN:VEVENT
+UID:kolby-palmer@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20021106
+DTEND;VALUE=DATE:20021106
+SUMMARY:Kolby Palmer's Birthday
+DTSTAMP:20021106T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/kolby-palmer
+END:VEVENT
+BEGIN:VEVENT
+UID:anthony-duan@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20030328
+DTEND;VALUE=DATE:20030328
+SUMMARY:Anthony Duan's Birthday
+DTSTAMP:20030328T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/anthony-duan
+END:VEVENT
+BEGIN:VEVENT
+UID:nick-errico@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040325
+DTEND;VALUE=DATE:20040325
+SUMMARY:Nick Errico's Birthday
+DTSTAMP:20040325T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/nick-errico
+END:VEVENT
+BEGIN:VEVENT
+UID:olivia-zhao@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040922
+DTEND;VALUE=DATE:20040922
+SUMMARY:Olivia Zhao's Birthday
+DTSTAMP:20040922T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/olivia-zhao
+END:VEVENT
+BEGIN:VEVENT
+UID:bhagirath-khemka@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040924
+DTEND;VALUE=DATE:20040924
+SUMMARY:Bhagirath Khemka's Birthday
+DTSTAMP:20040924T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/bhagirath-khemka
+END:VEVENT
+BEGIN:VEVENT
+UID:finley-walshe@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20030119
+DTEND;VALUE=DATE:20030119
+SUMMARY:Finley Walshe's Birthday
+DTSTAMP:20030119T050000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/finley-walshe
+END:VEVENT
+BEGIN:VEVENT
+UID:claire-mucyo@gtowntech.org
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART;VALUE=DATE:20040601
+DTEND;VALUE=DATE:20040601
+SUMMARY:Claire Mucyo's Birthday
+DTSTAMP:20040601T040000
+RRULE:FREQ=YEARLY;UNTIL=20900101T000000Z
+TRANSP:TRANSPARENT
+ATTACH:https://gtowntech.org/team/claire-mucyo
+END:VEVENT
+END:VCALENDAR
