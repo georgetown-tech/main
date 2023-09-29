@@ -60,11 +60,23 @@ function ContactPage({location}) {
     let heHimGeorgetown = 44;
     let theyTheirGeorgetown = 0;
 
+    let sfsCount = 0;
+    let msbCount = 0;
+    let collegeCount = 0;
+    let nursingCount = 0;
+    let healthCount = 0;
+
     members.forEach(i => {
 
         if (i.gender == 'M') heHim++;
         if (i.gender == 'F') sheHer++;
         if (i.gender == 'O') theyTheir++;
+
+        if (i.school == "MSB") msbCount++;
+        if (i.school == "College") collegeCount++;
+        if (i.school == "SFS") sfsCount++;
+        if (i.school == "Nursing") nursingCount++;
+        if (i.school == "Health") healthCount++;
 
     })
 
@@ -72,6 +84,10 @@ function ContactPage({location}) {
     let sheHerPercent = (sheHer / (sheHer + heHim + theyTheir)) * 100;
 
     let genderDistance = Math.abs(sheHerPercent - 50) - Math.abs(sheHerGeorgetown - 50);
+
+    let msbPercent = msbCount / (msbCount + collegeCount + sfsCount + nursingCount + healthCount)
+    let collegePercent = collegeCount / (msbCount + collegeCount + sfsCount + nursingCount + healthCount)
+    let sfsPercent = sfsCount / (msbCount + collegeCount + sfsCount + nursingCount + healthCount)
 
     return (
         <Layout location={location} crumbLabel="Contact">
@@ -94,12 +110,12 @@ function ContactPage({location}) {
                             labels: ['He/Him', 'She/Her', 'They/Their'],
                             datasets: [
                                 {
-                                    label: 'Gender Distribution at GDT',
+                                    label: 'Number of Members',
                                     data: [heHim, sheHer, theyTheir],
                                     backgroundColor: [
-                                        'rgba(54, 162, 235, 0.4)',
-                                        'rgba(255, 99, 132, 0.4)',
-                                        'rgba(132, 132, 132, 0.4)',
+                                        'rgba(54, 162, 235, 0.6)',
+                                        'rgba(255, 99, 132, 0.6)',
+                                        'rgba(132, 132, 132, 0.6)',
                                     ],
                                     borderWidth: 0,
                                 },
@@ -122,34 +138,41 @@ function ContactPage({location}) {
                 </div>
             </section>
 
-            {/* <section>
-                <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-2">
-                <div className="w-full md:w-2/3">
-                    <h2 className="font-bold text-4xl mb-4">From Hoyas to the Hilltop.</h2>
-                    <p className="mb-2 text-lg">Georgetown Disruptive Technology is the leading technology-oriented club at Georgetown University. Our goal is to provide students with the resources they need to succeed in the ever-changing world of technology. From programming to cyber security, we offer a wide range of workshops and events to help you stay ahead of the curve.</p>
-                    <p className="mb-2 text-lg">Whether it's software development, machine learning, data analytics, or graphic design, GDT is your "one stop shop" to pursue your passions and explore new interests.</p>
-                </div>
-                <div className="w-1/3 hidden text-slate-200 md:block">
-                    {
-                    // <img className="w-full rounded" src={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
-                    }
-                </div>
+            <section className="mt-32">
+                <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-8 flex-col-reverse md:flex-row">
+                    <div className="w-full md:w-2/3">
+                        <h2 className="font-bold text-4xl mb-4">Variety of Viewpoints</h2>
+                        <p className="mb-2 text-lg">
+                            Georgetown Disruptive Tech is made up of a number of different schools, majors, and viewpoints. Our distribution in schools 
+                            closely mirrors that of the greater Georgetown student body. 
+                        </p>
+                        <p className="mb-2 text-lg">
+                            In short, we have {collegePercent * 100}% representation from the college, {msbPercent * 100}% from the MSB, and 
+                            {sfsPercent * 100}% from the SFS. Our leadership closely reflects these percentages, as we think it is important that
+                            everyone is properly represented at GDT.
+                        </p>
+                    </div>
+                    <div className="w-full md:w-1/3 text-slate-200">
+                        <Pie data={{
+                            labels: ['College', 'MSB', 'SFS', "Health", "Nursing"],
+                            datasets: [
+                                {
+                                    label: 'Number of Members',
+                                    data: [collegeCount, msbCount, sfsCount, healthCount, nursingCount],
+                                    backgroundColor: [
+                                        'rgb(17, 138, 178, 0.6)',
+                                        'rgb(239, 71, 111, 0.6)',
+                                        'rgb(255, 209, 102, 0.6)',
+                                        'rgb(6, 214, 160, 0.6)',
+                                        'rgb(66, 72, 116, 0.6)',
+                                    ],
+                                    borderWidth: 0,
+                                },
+                            ],
+                        }} />
+                    </div>
                 </div>
             </section>
-            <section className="w-full px-16 py-8 my-16">
-                <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-2">
-                <div className="w-1/3 hidden text-slate-200 md:block">
-                    {
-                    // <img className="w-full rounded" src={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
-                    }
-                </div>
-                <div className="w-full md:w-2/3">
-                    <h2 className="font-bold text-4xl mb-4">A Community Driven Approach.</h2>
-                    <p className="mb-2 text-lg">One of our main focuses is the community that we create around Georgetown. All of our members are students at the University, and all of our projects are focused around the University and the surrounding area.</p>
-                    <p className="mb-2 text-lg">Whether it's a new platform for the Hoya, a machine learning project for the Cherry Blossom Festival, or a whole new, tech-driven approach for a Georgetown club, GDT is ready to create it.</p>
-                </div>
-                </div>
-            </section> */}
         </Layout>
     )
 }
