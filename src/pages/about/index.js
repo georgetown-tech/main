@@ -1,10 +1,10 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 
-import historyImage from "../res/images/history.jpeg"
-import partnersImage from "../res/images/google.png"
+import historyImage from "../../res/images/history.jpeg"
+import partnersImage from "../../res/images/google.png"
 
 function ContactPage({location}) {
 

@@ -15,6 +15,7 @@
         "school": "MSB",
         "biography": "William McGonagle is a freshman at Georgetown University in the McDonough School of Business. He joined GDT in the fall of 2023 because of the computer science community surrounding the club. Originally from Bridgeport&comma; Connecticut&comma; William is passionate about sailing&comma; writing&comma; and spending time outside.",
         "works": "William is currently the project leader on the Rotogravure project. As the project lead&comma; he manages the development team and collaborates with the newspapers to ensure a quality platform.",
+        "has_image": true,
         "work": [
             0
         ]
@@ -35,6 +36,7 @@
         "school": "SFS",
         "biography": "PK is a first-year student who calls New Canaan&comma; Connecticut home. As someone with an international family with many people who work with innovative tech across many sectors&comma; he has always been interested in how these two issues intersect and thus&comma; as a student in the SFS&comma; he is drawn to Georgetown Disruptive Tech. He learned to code in high-school and looks forward to building on his skills in innovative ways.",
         "works": "As part of the Developer team&comma; PK is helping to modernize and digitize the Hoya’s online presence. He is looking forward to making sure we have a secure system and also ensuring its scalability so the team can work with college newspapers across the country. ",
+        "has_image": true,
         "work": [
             0
         ]
@@ -55,6 +57,7 @@
         "school": "College",
         "biography": "Eamon Maloney is a freshman at Georgetown University in the College of Arts and Sciences. He is from Falls Church&comma; Virginia(about 30 minutes outside of DC). He is a Linguistics major&comma; with a minor in Italian&comma; and is a member of the Foreign Language and Linguistics Hager Scholars colloquium. In Eamon's free time&comma; he enjoys playing and listening to music&comma; reading(fav book is Blood Meridian by Cormac McCarthy)&comma; working out&comma; and martial arts. Eamon also enjoys studying new languages&comma; and is currently studying Russian and Latin outside of class. Eamon joined GDT in 2023 because he is interested in web design and is very passionate about creating user friendly websites. ",
         "works": "Eamon is a part of the Developer Team. He is working on the Simon's Heart Development project&comma; using HTML&comma; CSS&comma; JavaScript&comma; and AWS. He is helping redesign the Simon's Heart webpage and donation page to create a more user-friendly experience. ",
+        "has_image": true,
         "work": [
             1
         ]
@@ -75,6 +78,7 @@
         "school": "College",
         "biography": "Elise Zhu is a freshman in the College of Arts and Sciences. She is majoring in Computer Science with a minor in math. After taking several classes in web development and AI in high school&comma; she was drawn to continuing to build projects as a member of Georgetown Disruptive Tech. Originally from Fairfax&comma; Virginia&comma; Elise also enjoys dancing&comma; reading&comma; and drinking bubble tea.",
         "works": "As a part of the Developer team&comma; Elise is working on upgrading websites for Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest. Through this project&comma; she is utilizing  frontend development skills including HTML&comma; CSS&comma; and JS.",
+        "has_image": false,
         "work": [
             1
         ]
@@ -95,6 +99,7 @@
         "school": "College",
         "biography": "Asadullah is originally from Afghanistan and levied in India for 4 years. He is in the college of arts and science studying computer science. Apart from academics&comma; he likes to spend his free time visiting new places&comma; meeting friends and new people&comma; volleyball is his favorite sport. He joined GDT to gain practical experience by working on real world projects. ",
         "works": "Asadullah is in the developer team. He and his team works on building a website. He has learned HTML&comma; CSS&comma; JS&comma; and team work. His responsibilities are to participate in all the group meeting and complete the assigned tasks on time and help the team to complete the project on time. ",
+        "has_image": false,
         "work": [
             1
         ]
@@ -115,6 +120,7 @@
         "school": "College",
         "biography": "Felix Dosmond is a freshman in the College of Arts and Sciences. His hometown is Greenwich&comma; Connecticut. He joined GDT because he enjoys connecting with others&comma; and wanted to learn more about a variety of different fields through his work in outreach. He was also drawn to GDT by the exciting atmosphere of the organization created by the leaders.",
         "works": "As Assistant Head of Events and Outreach&comma; Felix coordinates upcoming GDT events. He researches as well as reaches out to potential speakers. He also organizes projects for the Events and Outreach team.",
+        "has_image": true,
         "work": []
     },
     {
@@ -133,6 +139,7 @@
         "school": "College",
         "biography": "Victoria Cheng is a sophomore in the College of Arts and Sciences majoring in Computer Science. She is passionate about connecting with fellow tech enthusiasts and leveraging technology to serve her community. Originally from Bethesda&comma; Maryland&comma; Victoria also enjoys drawing&comma; reading&comma; and doing crosswords.",
         "works": "Victoria is a Project Manager on the Developer Team. Currently&comma; she leads a group of developers to rebuild the website of Simon's Heart&comma; a nonprofit dedicated to preventing sudden cardiac arrest in children. Victoria oversees development using HTML/CSS&comma; JS&comma; and AWS and facilitates collaboration with Simon's Heart.",
+        "has_image": true,
         "work": [
             1
         ]
@@ -153,6 +160,7 @@
         "school": "College",
         "biography": "Lucas is a junior in the College of Arts and Sciences studying physics and economics. His upbringing in New York City shaped his interest in biotechnology and material sciences. He joined GDT to connect with other tech-interested folks on campus. ",
         "works": "Lucas is the President of GDT. He sits on the executive board and coordinates with project managers to make sure our teams are properly resourced. He has moderated a number of speaker events for the club and handles our administrative matters. ",
+        "has_image": true,
         "work": []
     },
     {
@@ -171,6 +179,7 @@
         "school": "MSB",
         "biography": "Chris Bond is a freshman in the MSB studying Operations and Analytics. He is from Athens&comma; Georgia and is deeply interested in data structures and computer science. He also loves cooking&comma; and has a killer omelet.  ",
         "works": "Chris is on the team collaborating with The Hoya; his responsibilities include assisting with the coding of the new Hoya website portal and any projects that are introduced in the coming year.",
+        "has_image": true,
         "work": [
             0
         ]
@@ -191,6 +200,7 @@
         "school": "College",
         "biography": "Sam Berryessa is a first-year in the College at Georgetown currently studying Chinese. From Seattle&comma; Sam graduated from Lakeside School in 2023. He likes to play piano&comma; tennis&comma; and volleyball. Sam joined GDT because he wants to use his previous coding experience to work on real world problems and build his portfolio.",
         "works": "Sam is on the Developer team&comma; currently working on The Hoya project; constructing an online template site for newspapers. He will be learning how to code collaboratively through GitHub and other languages like Go. His responsibilities will mainly revolve around coding different parts of the portal.",
+        "has_image": true,
         "work": [
             0
         ]
@@ -211,6 +221,7 @@
         "school": "College",
         "biography": "Bradley Hu comes from Delaware&comma; and is currently in the College of Arts and Sciences&comma; majoring in Computer Science. He joined GDT to gain experience working on a project as a team&comma; and to learn new programming languages. In his spare time&comma; Bradley enjoys reading the webcomic xkcd and playing video games. ",
         "works": "Bradley Hu is working on a new site for The Hoya&comma; one of the newspapers at Georgetown University. He is helping with both the front end and back end of the website.",
+        "has_image": true,
         "work": [
             0
         ]
@@ -231,6 +242,7 @@
         "school": "College",
         "biography": "Isabelle is from Monmouth County&comma; New Jersey. She is a first year in the College pursuing Computer Science and Theater and Performance Studies.  She attended an all-girls school with an emphasis on STEM&comma; where she first learned to code. She enjoys reading on the beach and hanging out with her cat Daisy in her free time.",
         "works": "Isabelle is a part of the team creating a new website for The Hoya. She will be mainly working on the back end&comma; specifically the portal. She is very excited to learn more about website developement.",
+        "has_image": false,
         "work": [
             0
         ]
@@ -251,6 +263,7 @@
         "school": "College",
         "biography": "Caroline is a first-year student studying Computer Science and Government. She is thrilled to be a member of GDT's Research and Writing Team and is looking forward to exploring emerging trends in tech policy. Growing up in Central Wisconsin&comma; Caroline has always loved spending time outdoors&comma; going for runs&comma; and playing tennis. At Georgetown&comma; she enjoys contributing to the Sketch Comedy Club and exploring Washington&comma; D.C.",
         "works": "Caroline contributes to GDT's Research and Writing Team and focuses on tech policy. She is excited to learn more about the intersection between technology and government and improve her research and writing capabilities. ",
+        "has_image": true,
         "work": []
     },
     {
@@ -269,6 +282,7 @@
         "school": "SFS",
         "biography": "Gitanjali Reddy is a third-year undergraduate junior at Georgetown University’s Walsh School of Foreign Service. She is pursuing a B.S. in Science&comma; Technology&comma; and International Affairs with a concentration in Security Studies. She researches emerging technologies for military use&comma; defense policy&comma; and national security law.",
         "works": "Gitanjali is a member of the research and writing team.",
+        "has_image": true,
         "work": []
     },
     {
@@ -287,6 +301,7 @@
         "school": "College",
         "biography": "Katie is a computer science major in the College&comma; and she is from Fairfax County&comma; Virginia. She joined Disruptive Tech because she is interested in how computer science can be used to make a positive impact in the world&comma; both in big and small ways. Other than computer science&comma; she also likes spending time with friends&comma; drinking tea&comma; and swimming.",
         "works": "Katie is on a GDT developer team that is currently working on redesigning the Georgetown Radio Club's website. As this is her first year participating in Disruptive Tech (and being in college)&comma; Katie doesn't know exactly what to expect&comma; but she's excited to be a part of it!",
+        "has_image": true,
         "work": []
     },
     {
@@ -305,6 +320,7 @@
         "school": "College",
         "biography": "A proud Philadelphia native&comma; Kolby first became interested in technology through his physics coursework at Georgetown. Currently a rising junior in the College of Arts and Sciences&comma; Kolby is passionate about developing technologies to improve healthcare systems and sustainability. At GDT&comma; Kolby aspires to redefine how Georgetown students interact with technology while simultaneously bringing positive impact to the local community through student-led projects. ",
         "works": "As CTO&comma; Kolby led GDT's transformation toward student-led development teams focused on programming and machine learning projects. By facilitating partnerships with local non-profits and on-campus organizations at Georgetown&comma; Kolby has helped to center GDT's mission around creating tangible impact for both our partners and within our communities. ",
+        "has_image": false,
         "work": []
     },
     {
@@ -323,6 +339,7 @@
         "school": "College",
         "biography": "Anthony is a third-year in the College of Arts and Sciences who initially majored in Economics before taking COSC 051 and adding on Computer Science with a minor in Mathematics. He is from Ellicott City&comma; Maryland&comma; and in his free time he likes listening to music&comma; walking around the neighborhood&comma; and hanging out with the Quizbowl and MUN teams! He is here to learn about machine learning :D",
         "works": "Anthony is a member of our Machine Learning team&comma; working with the rest of the team on a sentiment analysis model for the National Cherry Blossom Festival. Though he is new to GDT&comma; he is excited to learn about this emerging field as one of the team's developers.",
+        "has_image": "",
         "work": []
     },
     {
@@ -341,6 +358,7 @@
         "school": "MSB",
         "biography": "Nick is from Connecticut&comma; but originally from New York&comma; and is in the MSB&comma; studying Finance. He loves playing tennis&comma; is an avid sports fan&comma; and has recently become very interested in tech and AI. Nick joined GDT to be a part of its amazing community and is eager to complement his financial and geopolitical knowledge with technical learning and research.",
         "works": "Nick is on the research and writing team of GDT&comma; researching the business side of Artificial Intelligence with one other team member. Nick has benefitted greatly from being on this project team&comma; learning various leadership and writing skills. ",
+        "has_image": true,
         "work": []
     },
     {
@@ -359,6 +377,7 @@
         "school": "MSB",
         "biography": "Olivia Zhao is a first-year student in the McDonough School of Business from Chapel Hill&comma; North Carolina. She looks forward to developing her skills in data science and machine learning by tackling actual needs that real people have. In her free time&comma; she enjoys painting&comma; birdwatching&comma; and very casual cycling.",
         "works": "Olivia Zhao is on the Machine Learning team at Georgetown Disruptive Tech. She works with the team on projects related to data science and Artificial Intelligence&comma; such as sentiment analysis and chatbots. ",
+        "has_image": "",
         "work": []
     },
     {
@@ -377,6 +396,7 @@
         "school": "MSB",
         "biography": "Bhagirath is a bilingual business student at Georgetown University who is passionate about entrepreneurship and problem-solving. With a diverse background in finance&comma; entrepreneurship&comma; and volunteering&comma; he brings a unique perspective to the table at GDT.",
         "works": "He is an integral part of the GDT team who has honed his skills in technology assessment and outreach while actively contributing to innovative projects and fostering tech-driven solutions. Their responsibilities include research&comma; event coordination&comma; and promoting tech awareness within the university community.",
+        "has_image": "",
         "work": []
     },
     {
@@ -395,6 +415,7 @@
         "school": "MSB",
         "biography": "Finley is a Marketing and Management double major in the MSB from Los Angeles. He enjoys playing golf&comma; watching movies&comma; and learning about new tech&comma; especially virtual reality and augmented reality tools. He joined GDT’s marketing team in his freshman year to learn more about disruptive tech&comma; surround himself with tech-passionate people&comma; and practice digital marketing skills.",
         "works": "Finley works with the marketing team to help promote guest speaker events&comma; workshop events&comma; and GDT itself by designing digital posts and reaching out to potential and relevant organizations.",
+        "has_image": "",
         "work": []
     },
     {
@@ -413,6 +434,7 @@
         "school": "College",
         "biography": "Mimi is a Freshman in the college excited to explore the academic and extracurricular opportunities on campus. She joined GDT because of her interest in current discourse about the internet’s influence on young people&comma; as well as her fascination with technology policy and the ethics of AI in its ever-expanding role. She is also eager to learn more through GDT. ",
         "works": "Mimi is on the events team. She is happy to participate in learning about the behind-the-scenes process in planning speaker events as well as finding compelling speakers to host on campus. ",
+        "has_image": "",
         "work": []
     },
     {
@@ -431,6 +453,7 @@
         "school": "College",
         "biography": "Claire Mucyo is a sophomore in the College studying Government with a minor in Tech&comma; Ethics&comma; & Society. She's also involved in the Student Advocacy Office on Campus. She joined GDT to learn more about tech policy and governance after taking a class that touched on the ethical implications of technology. Outside of school&comma; she loves to go on nature walks and hikes&comma; excerise in fun ways (she just joined club boxing)&comma; and spend quality time with friends.",
         "works": "Claire Mucyo is on the research and writing team for GDT. Her responsibilities include brainstorming new research ideas and bringing them to fruition with collaborative projects and writing pieces. She is currently learning how to effectively plan and facilitate meaningful research projects with her team. ",
+        "has_image": "",
         "work": []
     },
     {
@@ -449,6 +472,7 @@
         "school": "College",
         "biography": "Lucy is in the College majoring in Computer Science with minors in Mathematics and Studio Art. She comes from Frederick&comma; Maryland and she is interested in digital art&comma; swimming&comma; and anime. Lucy joined GDT to gain more hands on experience with technology that isn’t taught in class and to channel her creative abilities towards fresh opportunities.",
         "works": "Lucy is now on the Simon’s Heart developer team working towards redesigning their website. Using HTML&comma; CSS&comma; JavaScript&comma; and AWS&comma; she is hoping to provide users and clients with a smoother experience.",
+        "has_image": "",
         "work": []
     },
     {
@@ -467,6 +491,7 @@
         "school": "College",
         "biography": "Kenneth Kim is from Suwon-si&comma; South Korea. After spending four years in Virginia&comma; he chose to come to Georgetown. In Georgetown University&comma; he majors in mathematics & Economics in the College of Arts & Science. His hobby is reading articles about technology and ethics&comma; and most of his interest these days focuses on philosophical values in modern technology. He joined GDT to share his ideas and interest to Georgetown and the world!",
         "works": "Kenneth is in GDT's Research & Writing team. Specifically&comma; he is a member of A.I. research section&comma; studying the relation between AI technology and our lives. The writing also aims readers without tech knowledge.",
+        "has_image": "",
         "work": []
     }
 ]
