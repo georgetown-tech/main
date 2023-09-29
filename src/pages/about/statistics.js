@@ -88,8 +88,8 @@ function ContactPage({location}) {
                 </div>
             </section>
             <section>
-                <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-8">
-                    <div className="w-1/3 hidden text-slate-200 md:block">
+                <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-8 flex-col md:flex-row">
+                    <div className="w-full md:w-1/3 text-slate-200">
                         <Pie data={{
                             labels: ['He/Him', 'She/Her', 'They/Their'],
                             datasets: [
