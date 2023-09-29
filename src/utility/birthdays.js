@@ -22,8 +22,6 @@ module.exports = function generateFile(members) {
 
         if (i.birthdate == '') return;
 
-        console.log(i)
-
         const start = new Date(Date.parse(i.birthdate))
 
         const slug = `${i.first} ${i.last}`.toLowerCase().replace(/\s/g, '-');

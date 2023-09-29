@@ -1,11 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Program from "../components/program"
 import EventMonth from "../components/eventMonth"
-
-import generateBirthdaysFile from "../utility/birthdays"
 
 const monthDiff = (d1, d2) => {
   let months;
@@ -16,9 +12,6 @@ const monthDiff = (d1, d2) => {
 }
 
 function ProgramsPage({location}) {
-
-  let team = require('../../data/team.json')
-  console.log(generateBirthdaysFile(team))
 
   let events = require('../../data/events.json')
   let maxDate = new Date();
@@ -77,8 +70,9 @@ function ProgramsPage({location}) {
     <Layout location={location} crumbLabel="programs" >
       <h1 className="hidden">Events</h1>
       <a href="webcal://gtowntech.org/api/events" className="fixed bottom-4 right-4 w-20 aspect-square bg-primary flex justify-center items-center rounded-3xl hover:shadow-xl transition-shadow z-50">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-12 h-12 text-white">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7z"/>
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
         </svg>
       </a>
       {

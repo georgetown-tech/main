@@ -76,7 +76,7 @@ exports.createPages = async ({ actions }) => {
     const memberDataRaw = await memberData.text()
     const team = readCSV(memberDataRaw)
 
-    const programsData = await fetch('https://docs.google.com/spreadsheets/d/19cVdMPmb5pjcp-PkmXeIYhRq3xKxR4pNv3eXgvBPMbA/gviz/tq?tqx=out:csv&sheet=Projects')
+    const programsData = await fetch('https://docs.google.com/spreadsheets/d/12pwf-kDdSXs6opX27rZMDAcjBLMjr39TAcAs3Lw7KZk/gviz/tq?tqx=out:csv&sheet=Projects')
     const programsDataRaw = await programsData.text()
     const programs = readCSV(programsDataRaw)
 
