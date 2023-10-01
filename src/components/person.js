@@ -29,7 +29,7 @@ function Person({ first, last, biography, location = "", crumbLabel }) {
   return (<>
     <Link className="block w-full h-full" to={`/team/${slug}`}>
       <div className="rounded shadow p-4 h-full">
-        <img src={photo} class="rounded-full w-1/2 mb-4 aspect-square object-cover" />
+        <img src={photo} loading="lazy" class="rounded-full w-1/2 mb-4 aspect-square object-cover" />
         <h3 className="text-lg font-bold">
           {first} {last}
         </h3>
