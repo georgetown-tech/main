@@ -69,7 +69,7 @@ const Event = ({ pageContext }) => {
           >
           <input class="w-full bg-slate-100 p-4 text-md rounded border" placeholder="Email for RSVP" name="entry.996275753" type="email" onChange={(e) => { setEmail(e.target.value) }} value={email} />
           <input name="entry.1105744832" type="hidden" value={slug} />
-          <input class="bg-green-400 px-8 rounded font-black hover:cursor-pointer hover:bg-green-500" type="submit" value="RSVP" />
+          <input class="bg-primary text-white px-8 rounded font-black hover:cursor-pointer hover:bg-green-500" type="submit" value="RSVP" />
         </form>
       </div>
     </section>
