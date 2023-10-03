@@ -88,6 +88,10 @@ exports.createPages = async ({ actions }) => {
     const eventsDataRaw = await eventsData.text()
     const events = readCSV(eventsDataRaw)
     
+    const financesData = await fetch('https://docs.google.com/spreadsheets/d/1oMdAjlDXGUuRcEN8101P4YxGfCtya1a_YaCqxgayQ_c/gviz/tq?tqx=out:csv&sheet=Finances')
+    const financesDataRaw = await financesData.text()
+    const finances = readCSV(financesDataRaw)
+    
     team.forEach((i, n) => {
 
       team[n].work = []
@@ -106,6 +110,7 @@ exports.createPages = async ({ actions }) => {
     description: "Below is a list of projects that Georgetown Disruptive Tech has developed. If you would like to get involved with them, please reach out and let us know.",
     programs: programs
   }, null, 4))
+  fs.writeFileSync('./data/finances.json', JSON.stringify(finances, null, 4))
 
   fs.writeFileSync('./static/api/events', generateEventsFile(events))
   fs.writeFileSync('./static/api/events.ics', generateEventsFile(events))
