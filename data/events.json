@@ -6,30 +6,30 @@
         "startTime": "9/12/2023 5:00:00 PM",
         "endTime": "9/12/2023 6:00:00 PM",
         "type": "GBM",
+        "image": "https://www.georgetowndc.com/wp-content/uploads/2019/07/aaht-healyhall1_48654333031_o-1400x800.jpg",
         "eventLength": "1:00",
-        "slug": "9-12-2023-general-body-meeting-1",
-        "image": "https://www.georgetowndc.com/wp-content/uploads/2019/07/aaht-healyhall1_48654333031_o-1400x800.jpg"
+        "slug": "9-12-2023-general-body-meeting-1"
     },
     {
         "title": "General Body Meeting #2",
         "description": "",
         "location": "Leavy Program Room",
         "startTime": "9/26/2023 5:00:00 PM",
-        "endTime": "9/26/2023 6:00:00 PM",
+        "endTime": "10/10/2023 6:00:00 PM",
         "type": "GBM",
+        "image": "https://media.istockphoto.com/id/474639470/photo/georgetown-skyline.jpg?s=612x612&w=0&k=20&c=rWRjylIGVCqRMPAVzD2HekmEoIbeAh6qrwvVXF0nRr0=",
         "eventLength": "1:00",
-        "slug": "9-26-2023-general-body-meeting-2",
-        "image": "https://media.istockphoto.com/id/474639470/photo/georgetown-skyline.jpg?s=612x612&w=0&k=20&c=rWRjylIGVCqRMPAVzD2HekmEoIbeAh6qrwvVXF0nRr0="
+        "slug": "9-26-2023-general-body-meeting-2"
     },
     {
         "title": "Dr. Gayan Benedict Future Forecasting",
         "description": "On October 10th 5pm in the Arrupe Multipurpose Room, GDT will host Salesforce CTO (Australia and New Zealand) and former Reserve Bank of Australia CIO Dr. Gayan Benedict, who will be presenting a talk on future forecasting. This is a great opportunity for anybody interested in fintech or wanting to understand how major institutions account for the uncertainty of disruptive technologies.",
         "location": "Arrupe Multipurpose Room",
-        "startTime": "10/10/2023 5:00:00",
-        "endTime": "10/10/2023 7:00:00",
+        "startTime": "10/10/2023 5:00:00 PM",
+        "endTime": "9/27/2023 6:00:00 PM",
         "type": "Speaker",
-        "eventLength": "2:00",
-        "slug": "10-10-2023-dr-gayan-benedict-future-forecasting",
-        "image": "https://www.ivywise.com/core/wp-content/uploads/2022/05/Georgetown.jpeg"
+        "image": "https://www.ivywise.com/core/wp-content/uploads/2022/05/Georgetown.jpeg",
+        "eventLength": "1:00",
+        "slug": "10-10-2023-dr-gayan-benedict-future-forecasting"
     }
 ]

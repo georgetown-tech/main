@@ -29,7 +29,7 @@ UID:1-general-body-meeting-2@gtowntech.org
 DTSTAMP:20230926T210000
 ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
 DTSTART:20230926T210000
-DTEND:20230926T220000
+DTEND:20231010T220000
 SUMMARY:General Body Meeting #2
 LOCATION:Leavy Program Room
 TRANSP:OPAQUE
@@ -37,10 +37,10 @@ ATTACH:https://gtowntech.org/events/1-general-body-meeting-2
 END:VEVENT
 BEGIN:VEVENT
 UID:2-dr-gayan-benedict-future-forecasting@gtowntech.org
-DTSTAMP:20231010T090000
+DTSTAMP:20231010T210000
 ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
-DTSTART:20231010T090000
-DTEND:20231010T110000
+DTSTART:20231010T210000
+DTEND:20230927T220000
 SUMMARY:Dr. Gayan Benedict Future Forecasting
 LOCATION:Arrupe Multipurpose Room
 TRANSP:OPAQUE

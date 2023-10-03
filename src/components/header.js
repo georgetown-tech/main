@@ -3,7 +3,7 @@ import Logo from "../res/gdt.svg";
 import { Link } from "gatsby"
 
 const Header = ({  }) => (
-  <header aria-label="Site Header" class="shadow-sm">
+  <header aria-label="Site Header" class="shadow-sm print:hidden">
     <div class="mx-auto max-w-screen-lg p-2 flex flew-row gap-4">
       <div class="flex items-center justify-center">
         <Link class="m-0 p-0" to="/">

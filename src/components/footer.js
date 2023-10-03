@@ -5,7 +5,7 @@ const Footer = ({ siteTitle }) => {
 
   const programs = require('../../data/programs.json').programs
 
-  return <footer aria-label="Site Footer" class="bg-white">
+  return <footer aria-label="Site Footer" class="bg-white print:hidden">
     <div
       class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8"
     >
