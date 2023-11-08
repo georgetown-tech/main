@@ -31,5 +31,16 @@
         "image": "https://www.ivywise.com/core/wp-content/uploads/2022/05/Georgetown.jpeg",
         "eventLength": "1:00",
         "slug": "10-10-2023-dr-gayan-benedict-future-forecasting"
+    },
+    {
+        "title": "GDT Demo Day",
+        "description": "",
+        "location": "",
+        "startTime": "12/1/2023 7:30:00 PM",
+        "endTime": "12/1/2023 9:00:00 PM",
+        "type": "Demo Day",
+        "image": "https://osei.georgetown.edu/wp-content/uploads/sites/258/2020/01/SSH-Georgetown-Campus-scaled.jpg",
+        "eventLength": "1:30",
+        "slug": "12-1-2023-gdt-demo-day"
     }
 ]

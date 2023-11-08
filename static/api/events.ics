@@ -46,4 +46,15 @@ LOCATION:Arrupe Multipurpose Room
 TRANSP:OPAQUE
 ATTACH:https://gtowntech.org/events/2-dr-gayan-benedict-future-forecasting
 END:VEVENT
+BEGIN:VEVENT
+UID:3-gdt-demo-day@gtowntech.org
+DTSTAMP:20231202T003000
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART:20231202T003000
+DTEND:20231202T020000
+SUMMARY:GDT Demo Day
+LOCATION:
+TRANSP:OPAQUE
+ATTACH:https://gtowntech.org/events/3-gdt-demo-day
+END:VEVENT
 END:VCALENDAR
