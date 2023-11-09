@@ -463,20 +463,20 @@ function ContactPage({ location }) {
                 {
                   fill: true,
                   label: "Net Assets",
-                  data: finances.map(i => i.netAssets),
+                  data: finances.map(i => i.netAssets + i.endowment),
                   borderColor: "rgb(53, 162, 235)",
                   backgroundColor: "rgba(53, 162, 235, 0.5)",
                 },
                 {
                   fill: true,
-                  label: "Assets",
+                  label: "Fixed Assets",
                   data: finances.map(i => i.assets),
                   borderColor: "rgb(162, 235, 53)",
                   backgroundColor: "rgba(162, 235, 53, 0.5)",
                 },
                 {
                   fill: true,
-                  label: "Liabilities",
+                  label: "Fixed Liabilities",
                   data: finances.map(i => -i.liabilities),
                   borderColor: "rgb(235, 53, 162)",
                   backgroundColor: "rgba(235, 53, 162, 0.5)",
