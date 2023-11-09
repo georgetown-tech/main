@@ -119,14 +119,37 @@ function ContactPage({ location }) {
       i.status == "sent" &&
       i.bankDescription != "Transfer between your Mercury accounts"
   )
+  const assets = require("../../../data/assets.json")
   const finances = []
 
+  console.log(assets)
+
   let floatingEndowment = 0
+  let netAssetDollars = 0
+
+  let assetDollars = 0
+  let liabilityDollars = 0
 
   for (let i = 0; i < 365; i++) {
     const dayTransactions = transactions.filter(
       m => dayOfYear(new Date(m.createdAt)) == i
     )
+
+    const dayAssets = assets.filter(m => dayOfYear(new Date(m.date)) == i)
+
+    const dayTrueAssets = dayAssets
+      .filter(i => i.value > 0)
+      .map(i => i.value)
+      .reduce((partialSum, a) => partialSum + a, 0)
+
+    const dayTrueLiabilities = dayAssets
+      .filter(i => i.value < 0)
+      .map(i => i.value)
+      .reduce((partialSum, a) => partialSum + a, 0)
+
+    netAssetDollars += dayTrueAssets - dayTrueLiabilities
+    assetDollars += dayTrueAssets
+    liabilityDollars -= dayTrueLiabilities
 
     const revenue = dayTransactions
       .filter(i => i.amount > 0)
@@ -166,6 +189,9 @@ function ContactPage({ location }) {
       costs,
       profit: revenue - costs,
       endowment: floatingEndowment,
+      netAssets: netAssetDollars,
+      assets: assetDollars,
+      liabilities: liabilityDollars,
     }
   }
 
@@ -263,7 +289,7 @@ function ContactPage({ location }) {
               plugins: {
                 title: {
                   display: true,
-                  text: "GDT Endowment",
+                  text: "GDT Liquid Endowment",
                 },
                 legend: {
                   display: false,
@@ -275,7 +301,7 @@ function ContactPage({ location }) {
               datasets: [
                 {
                   fill: true,
-                  label: "GDT Endowment",
+                  label: "GDT Liquid Endowment",
                   data: finances.map(i => i.endowment),
                   borderColor: "rgb(53, 162, 235)",
                   backgroundColor: "rgba(53, 162, 235, 0.5)",
@@ -394,6 +420,64 @@ function ContactPage({ location }) {
                   fill: true,
                   label: "Costs",
                   data: finances.map(i => -i.costs),
+                  borderColor: "rgb(235, 53, 162)",
+                  backgroundColor: "rgba(235, 53, 162, 0.5)",
+                },
+              ],
+            }}
+          />
+        </div>
+      </section>
+
+      <section>
+        <div className="max-w-6xl mx-auto pb-16 px-4 flex gap-8 flex-col md:flex-row">
+          <div className="w-full md:w-2/3">
+            <h2 className="font-bold text-4xl mb-4">Assets and Liabilities</h2>
+            <p className="mb-2 text-lg">
+              Georgetown Disruptive Tech has several holdings throughout stock,
+              real estate, physical resources, domains, etc. Our portfolio is
+              mixed between assets and liabilities, though we do try to limit
+              our liabilities.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3 text-slate-800"></div>
+        </div>
+      </section>
+      <section>
+        <div className="max-w-6xl mx-auto pb-16 px-4">
+          <Line
+            options={{
+              plugins: {
+                title: {
+                  display: true,
+                  text: "Balance Sheet",
+                },
+                legend: {
+                  display: true,
+                },
+              },
+            }}
+            data={{
+              labels: finances.map(i => i.date),
+              datasets: [
+                {
+                  fill: true,
+                  label: "Net Assets",
+                  data: finances.map(i => i.netAssets),
+                  borderColor: "rgb(53, 162, 235)",
+                  backgroundColor: "rgba(53, 162, 235, 0.5)",
+                },
+                {
+                  fill: true,
+                  label: "Assets",
+                  data: finances.map(i => i.assets),
+                  borderColor: "rgb(162, 235, 53)",
+                  backgroundColor: "rgba(162, 235, 53, 0.5)",
+                },
+                {
+                  fill: true,
+                  label: "Liabilities",
+                  data: finances.map(i => -i.liabilities),
                   borderColor: "rgb(235, 53, 162)",
                   backgroundColor: "rgba(235, 53, 162, 0.5)",
                 },

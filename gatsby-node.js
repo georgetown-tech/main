@@ -83,9 +83,11 @@ exports.createPages = async ({ actions }) => {
   const eventsDataRaw = await eventsData.text()
   const events = readCSV(eventsDataRaw)
 
-  // const financesData = await fetch('https://docs.google.com/spreadsheets/d/1oMdAjlDXGUuRcEN8101P4YxGfCtya1a_YaCqxgayQ_c/gviz/tq?tqx=out:csv&sheet=Finances')
-  // const financesDataRaw = await financesData.text()
-  // const finances = readCSV(financesDataRaw)
+  const assetsData = await fetch(
+    "https://docs.google.com/spreadsheets/d/1oMdAjlDXGUuRcEN8101P4YxGfCtya1a_YaCqxgayQ_c/gviz/tq?tqx=out:csv&sheet=Finances"
+  )
+  const assetsDataRaw = await assetsData.text()
+  const assets = readCSV(assetsDataRaw)
 
   // https://api.mercury.com/api/v1/account/id/transactions?limit=2147483647&offset=0&end=2023-01-01&search=2024-01-01
   const transactionsA = await fetch(
@@ -139,6 +141,8 @@ exports.createPages = async ({ actions }) => {
       4
     )
   )
+
+  fs.writeFileSync("./data/assets.json", JSON.stringify(assets, null, 4))
   fs.writeFileSync(
     "./data/finances.json",
     JSON.stringify(transactions, null, 4)

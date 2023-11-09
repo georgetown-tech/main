@@ -1,0 +1,34 @@
+[
+    {
+        "date": "11/1/2023",
+        "title": "hoya.space",
+        "description": "The domain for Hoya Space.",
+        "category": "domain",
+        "value": 801,
+        "": ""
+    },
+    {
+        "date": "10/4/23",
+        "title": "reroto.com",
+        "description": "The domain for reRoto.",
+        "category": "domain",
+        "value": 297,
+        "": ""
+    },
+    {
+        "date": "8/29/21",
+        "title": "gtowntech.org",
+        "description": "The domain for Georgetown Disruptive Tech.",
+        "category": "domain",
+        "value": 288,
+        "": ""
+    },
+    {
+        "date": "12/9/21",
+        "title": "fairfieldprogramming.org",
+        "description": "The domain for the Fairfield Programming Association.",
+        "category": "domain",
+        "value": 87,
+        "": ""
+    }
+]
