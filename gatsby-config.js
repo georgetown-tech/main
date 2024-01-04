@@ -28,13 +28,13 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `members`,
-        path: `${__dirname}/src/res/members`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `members`,
+    //     path: `${__dirname}/src/res/members`,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
