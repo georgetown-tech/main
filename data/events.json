@@ -34,13 +34,24 @@
     },
     {
         "title": "GDT Demo Day",
-        "description": "",
-        "location": "",
+        "description": "On December 1st, 2023, we will be hosting our Demolition Day at the Healy Family Student Center. There, we will showcase all of the projects that GDT has worked on during the Fall of 2023 semester, as well as announce some secret projects. Food and drink will be provided as well as complementary photo service.",
+        "location": "Healy Family Student Center",
         "startTime": "12/1/2023 7:30:00 PM",
         "endTime": "12/1/2023 9:00:00 PM",
         "type": "Demo Day",
         "image": "https://osei.georgetown.edu/wp-content/uploads/sites/258/2020/01/SSH-Georgetown-Campus-scaled.jpg",
         "eventLength": "1:30",
         "slug": "12-1-2023-gdt-demo-day"
+    },
+    {
+        "title": "Legislating the Future",
+        "description": "Come to the Fisher Colloquium on November 30th, 2023 at 4:00pm and meet the legislators of the future. Our panelists, ranging from a director at the Office of Science and Technology Policy, to a trailblazing researcher on AI regulation at CNAS, to a partner at one of the most innovative government relation firms in DC, will discuss national security, technical research, ethical considerations, and spurring innovation. A photographer will be present for any photo opportunities.",
+        "location": "The Fisher Colloquium",
+        "startTime": "11/30/2023 4:00 PM",
+        "endTime": "11/30/2023 7:00 PM",
+        "type": "Panel",
+        "image": "https://www.georgetowndc.com/wp-content/uploads/2019/07/aaht-healyhall1_48654333031_o-1400x800.jpg",
+        "eventLength": "3:00",
+        "slug": "11-30-2023-legislating-the-future"
     }
 ]

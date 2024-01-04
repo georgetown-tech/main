@@ -5,6 +5,7 @@
         "description": "The domain for Hoya Space.",
         "category": "domain",
         "value": 801,
+        "cost": 20,
         "": ""
     },
     {
@@ -13,6 +14,7 @@
         "description": "The domain for reRoto.",
         "category": "domain",
         "value": 297,
+        "cost": 12,
         "": ""
     },
     {
@@ -21,6 +23,7 @@
         "description": "The domain for Georgetown Disruptive Tech.",
         "category": "domain",
         "value": 288,
+        "cost": 12,
         "": ""
     },
     {
@@ -29,6 +32,7 @@
         "description": "The domain for the Fairfield Programming Association.",
         "category": "domain",
         "value": 87,
+        "cost": 12,
         "": ""
     }
 ]

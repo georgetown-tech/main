@@ -8,7 +8,7 @@ import Person from "../components/person"
 
 const Program = ({ pageContext }) => {
 
-    const { slug, title, description, index, joining, since, contents } = pageContext;
+    const { slug, title, description, icon, index, joining, since, contents } = pageContext;
     const members = require('../../data/team.json').filter(member => member.work.includes(index))
     const hasMembers = members.length != 0;
 
@@ -16,7 +16,8 @@ const Program = ({ pageContext }) => {
     <section>
         <div class="mx-auto max-w-screen-xl px-4 py-16">
             <span>Since {new Date(since).toLocaleString('default', { month: 'long' })}, {new Date(since).getFullYear()}</span>
-            <h1 className="font-bold text-4xl mb-4">{title}</h1>
+            <img className="h-20 w-80 object-contain object-left mb-2" src={icon} alt={title}></img>
+            <h1 className="font-bold text-4xl mb-4 hidden">{title}</h1>
             <p className="text-xl mb-16 max-w-2xl">{description}</p>
 
             {/* Joining Section */}

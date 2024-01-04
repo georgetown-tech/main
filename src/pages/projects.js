@@ -17,7 +17,7 @@ function ProgramsPage({location}) {
           <p className="text-xl mb-16 max-w-2xl">{programData.description}</p>
           <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
             {
-                programs.map(item => Program(item))
+                programs.sort((a, b) => { return new Date(b.since).getTime() - new Date(a.since).getTime() }).map(item => Program(item))
             }
           </div>
         </div>

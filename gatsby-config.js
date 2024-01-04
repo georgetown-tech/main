@@ -29,6 +29,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `members`,
+        path: `${__dirname}/src/res/members`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Georgetown Disruptive Tech`,

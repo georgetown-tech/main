@@ -53,8 +53,19 @@ ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
 DTSTART:20231202T003000
 DTEND:20231202T020000
 SUMMARY:GDT Demo Day
-LOCATION:
+LOCATION:Healy Family Student Center
 TRANSP:OPAQUE
 ATTACH:https://gtowntech.org/events/3-gdt-demo-day
+END:VEVENT
+BEGIN:VEVENT
+UID:4-legislating-the-future@gtowntech.org
+DTSTAMP:20231130T210000
+ORGANIZER;CN=Georgetown Disruptive Tech:MAILTO:disruptivetech@georgetown.edu
+DTSTART:20231130T210000
+DTEND:20231201T000000
+SUMMARY:Legislating the Future
+LOCATION:The Fisher Colloquium
+TRANSP:OPAQUE
+ATTACH:https://gtowntech.org/events/4-legislating-the-future
 END:VEVENT
 END:VCALENDAR

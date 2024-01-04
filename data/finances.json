@@ -1,5 +1,269 @@
 [
     {
+        "id": "0a0171bc-a874-11ee-ad9a-c3e02667d094",
+        "feeId": null,
+        "amount": -1.22,
+        "createdAt": "2024-01-01T07:04:43.244769Z",
+        "postedAt": null,
+        "estimatedDeliveryDate": "2024-01-05T22:00:00Z",
+        "status": "failed",
+        "note": null,
+        "bankDescription": "DIGITALOCEAN.COM",
+        "externalMemo": null,
+        "counterpartyId": "96f392f8-30bf-11ee-a50f-6beefa7d3ee6",
+        "details": {
+            "debitCardInfo": {
+                "id": "95f31ae0-3092-11ee-a3a7-d3bd28debdf9"
+            }
+        },
+        "reasonForFailure": "This card is blocked from being used at Digital Ocean.",
+        "failedAt": "2024-01-01T07:04:43.312059Z",
+        "dashboardLink": "https://mercury.com/transactions/0a0171bc-a874-11ee-ad9a-c3e02667d094",
+        "counterpartyName": "Digital Ocean",
+        "counterpartyNickname": null,
+        "kind": "debitCardTransaction",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "4e9edaf4-a585-11ee-bcff-07213b923ab3",
+        "feeId": null,
+        "amount": 8.8,
+        "createdAt": "2023-12-28T13:30:44.39255Z",
+        "postedAt": "2023-12-28T13:30:46.325523Z",
+        "estimatedDeliveryDate": "2023-12-28T13:30:46.325523Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "STRIPE; TRANSFER",
+        "externalMemo": null,
+        "counterpartyId": "afc15a2c-32c2-11ee-b29a-ebcc6b551dd9",
+        "details": {},
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/4e9edaf4-a585-11ee-bcff-07213b923ab3",
+        "counterpartyName": "STRIPE",
+        "counterpartyNickname": null,
+        "kind": "other",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "77eead5c-98c5-11ee-b293-4ba15cbc9768",
+        "feeId": null,
+        "amount": -20,
+        "createdAt": "2023-12-12T08:07:18.297887Z",
+        "postedAt": "2023-12-12T12:37:06.139755Z",
+        "estimatedDeliveryDate": "2023-12-18T22:00:00Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "VERCEL INC.",
+        "externalMemo": null,
+        "counterpartyId": "78e0ce48-98c5-11ee-99df-e7a3b29eb4d7",
+        "details": {
+            "debitCardInfo": {
+                "id": "95f31ae0-3092-11ee-a3a7-d3bd28debdf9"
+            }
+        },
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/77eead5c-98c5-11ee-b293-4ba15cbc9768",
+        "counterpartyName": "Vercel",
+        "counterpartyNickname": null,
+        "kind": "debitCardTransaction",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "72e73af0-9829-11ee-898b-3f86ce3e249b",
+        "feeId": null,
+        "amount": 4.4,
+        "createdAt": "2023-12-11T13:30:26.457853Z",
+        "postedAt": "2023-12-11T13:30:28.37569Z",
+        "estimatedDeliveryDate": "2023-12-11T13:30:28.37569Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "STRIPE; TRANSFER",
+        "externalMemo": null,
+        "counterpartyId": "afc15a2c-32c2-11ee-b29a-ebcc6b551dd9",
+        "details": {},
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/72e73af0-9829-11ee-898b-3f86ce3e249b",
+        "counterpartyName": "STRIPE",
+        "counterpartyNickname": null,
+        "kind": "other",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "2d1ac3ba-92d5-11ee-9a66-a79b373f9049",
+        "feeId": null,
+        "amount": -20,
+        "createdAt": "2023-12-04T18:44:37.735328Z",
+        "postedAt": "2023-12-05T01:14:42.454767Z",
+        "estimatedDeliveryDate": "2023-12-08T22:00:00Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "VERCEL DOMAINS",
+        "externalMemo": null,
+        "counterpartyId": "b64e6110-92d4-11ee-aed7-a757e6fbf104",
+        "details": {
+            "debitCardInfo": {
+                "id": "95f31ae0-3092-11ee-a3a7-d3bd28debdf9"
+            }
+        },
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/2d1ac3ba-92d5-11ee-9a66-a79b373f9049",
+        "counterpartyName": "Vercel Domains",
+        "counterpartyNickname": null,
+        "kind": "debitCardTransaction",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "b43eab78-92d4-11ee-96cc-6bea5e81a69a",
+        "feeId": null,
+        "amount": -20,
+        "createdAt": "2023-12-04T18:41:14.964628Z",
+        "postedAt": null,
+        "estimatedDeliveryDate": "2023-12-08T22:00:00Z",
+        "status": "failed",
+        "note": null,
+        "bankDescription": "VERCEL DOMAINS",
+        "externalMemo": null,
+        "counterpartyId": "b64e6110-92d4-11ee-aed7-a757e6fbf104",
+        "details": {
+            "debitCardInfo": {
+                "id": "c882c57e-92b6-11ee-8bfd-fbab148de2d4"
+            }
+        },
+        "reasonForFailure": "This card is merchant locked and can only be used at Vercel.",
+        "failedAt": "2023-12-04T18:41:15.026344Z",
+        "dashboardLink": "https://mercury.com/transactions/b43eab78-92d4-11ee-96cc-6bea5e81a69a",
+        "counterpartyName": "Vercel Domains",
+        "counterpartyNickname": null,
+        "kind": "debitCardTransaction",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "10b4910e-92aa-11ee-8dd2-73eb0d295580",
+        "feeId": null,
+        "amount": 4.4,
+        "createdAt": "2023-12-04T13:36:00.043639Z",
+        "postedAt": "2023-12-04T13:36:01.728132Z",
+        "estimatedDeliveryDate": "2023-12-04T13:36:01.728132Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "STRIPE; TRANSFER",
+        "externalMemo": null,
+        "counterpartyId": "afc15a2c-32c2-11ee-b29a-ebcc6b551dd9",
+        "details": {},
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/10b4910e-92aa-11ee-8dd2-73eb0d295580",
+        "counterpartyName": "STRIPE",
+        "counterpartyNickname": null,
+        "kind": "other",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "611c2906-924e-11ee-b641-0f0ae07e637c",
+        "feeId": null,
+        "amount": -46.46,
+        "createdAt": "2023-12-04T02:39:42.930636Z",
+        "postedAt": "2023-12-04T15:30:49.487387Z",
+        "estimatedDeliveryDate": "2023-12-08T22:00:00Z",
+        "status": "sent",
+        "note": "For the panelist event on November 31st, 2023.",
+        "bankDescription": "Send Money transaction initiated on Mercury",
+        "externalMemo": "From The Fairfield Programming Association Inc. via mercury.com",
+        "counterpartyId": "768e7542-924d-11ee-bfd7-dbf43643c8da",
+        "details": {
+            "electronicRoutingInfo": {
+                "accountNumber": "531685686",
+                "routingNumber": "021100361",
+                "bankName": "JPMORGAN CHASE BANK, NA",
+                "electronicAccountType": "businessChecking",
+                "address": {
+                    "address1": "108 Birch Lane",
+                    "city": "Greenwich",
+                    "region": "CT",
+                    "postalCode": "06830",
+                    "country": "US"
+                }
+            }
+        },
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/611c2906-924e-11ee-b641-0f0ae07e637c",
+        "counterpartyName": "Felix Dosmond",
+        "counterpartyNickname": "Felix Dosmond",
+        "kind": "outgoingPayment",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": true
+    },
+    {
+        "id": "94e3be90-9017-11ee-a839-33605d1ba689",
+        "feeId": null,
+        "amount": -11.11,
+        "createdAt": "2023-12-01T07:02:25.150801Z",
+        "postedAt": "2023-12-01T12:10:56.08749Z",
+        "estimatedDeliveryDate": "2023-12-07T22:00:00Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "DIGITALOCEAN.COM",
+        "externalMemo": null,
+        "counterpartyId": "96f392f8-30bf-11ee-a50f-6beefa7d3ee6",
+        "details": {
+            "debitCardInfo": {
+                "id": "95f31ae0-3092-11ee-a3a7-d3bd28debdf9"
+            }
+        },
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/94e3be90-9017-11ee-a839-33605d1ba689",
+        "counterpartyName": "Digital Ocean",
+        "counterpartyNickname": null,
+        "kind": "debitCardTransaction",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
+        "id": "72b4fdb0-8df2-11ee-97ae-5f494f6677b5",
+        "feeId": null,
+        "amount": 8.8,
+        "createdAt": "2023-11-28T13:31:32.768077Z",
+        "postedAt": "2023-11-28T13:31:34.104006Z",
+        "estimatedDeliveryDate": "2023-11-28T13:31:34.104006Z",
+        "status": "sent",
+        "note": null,
+        "bankDescription": "STRIPE; TRANSFER",
+        "externalMemo": null,
+        "counterpartyId": "afc15a2c-32c2-11ee-b29a-ebcc6b551dd9",
+        "details": {},
+        "reasonForFailure": null,
+        "failedAt": null,
+        "dashboardLink": "https://mercury.com/transactions/72b4fdb0-8df2-11ee-97ae-5f494f6677b5",
+        "counterpartyName": "STRIPE",
+        "counterpartyNickname": null,
+        "kind": "other",
+        "currencyExchangeInfo": null,
+        "compliantWithReceiptPolicy": true,
+        "hasGeneratedReceipt": false
+    },
+    {
         "id": "33712d1a-7f04-11ee-9338-f37a3d837807",
         "feeId": null,
         "amount": 44.25,
@@ -19,7 +283,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -42,7 +306,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -65,7 +329,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -92,7 +356,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -119,7 +383,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -146,7 +410,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": false,
         "hasGeneratedReceipt": false
     },
     {
@@ -169,7 +433,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -192,7 +456,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -215,7 +479,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -238,7 +502,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -265,7 +529,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -288,7 +552,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -315,7 +579,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -338,7 +602,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -365,7 +629,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -392,7 +656,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -415,7 +679,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -438,7 +702,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -461,7 +725,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -488,7 +752,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -511,7 +775,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -534,7 +798,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -557,7 +821,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -580,7 +844,7 @@
         "counterpartyNickname": null,
         "kind": "other",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -607,7 +871,7 @@
         "counterpartyNickname": null,
         "kind": "debitCardTransaction",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -630,7 +894,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -653,7 +917,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -676,7 +940,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     },
     {
@@ -699,7 +963,7 @@
         "counterpartyNickname": null,
         "kind": "internalTransfer",
         "currencyExchangeInfo": null,
-        "compliantWithReceiptPolicy": null,
+        "compliantWithReceiptPolicy": true,
         "hasGeneratedReceipt": false
     }
 ]
